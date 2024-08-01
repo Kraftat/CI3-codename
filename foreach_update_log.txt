@@ -1,0 +1,63 @@
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/PaypalPayment.php
+Original: foreach ($result['links'] as $link => $link)
+Updated: if (is_array($result['links']) || is_object($result['links'])) { foreach ($result['links'] as $link => $link) {
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/PaypalPayment.php
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRtools.php
+Original: foreach ($qrTab as $line => $line)
+Updated: if (is_array($qrTab) || is_object($qrTab)) { foreach ($qrTab as $line => $line) {
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRtools.php
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRinputItem.php
+Original: foreach ($this->items as $item => $item)
+Updated: if (is_array($this->items) || is_object($this->items)) { foreach ($this->items as $item => $item) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRinputItem.php
+Original: foreach ($this->items as $item => $item)
+Updated: if (is_array($this->items) || is_object($this->items)) { foreach ($this->items as $item => $item) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRinputItem.php
+Original: foreach ($this->items as $item => $item)
+Updated: if (is_array($this->items) || is_object($this->items)) { foreach ($this->items as $item => $item) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRinputItem.php
+Original: foreach ($this->items as $item => $item)
+Updated: if (is_array($this->items) || is_object($this->items)) { foreach ($this->items as $item => $item) {
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRinputItem.php
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRrsItem.php
+Original: foreach (self::$items as $rs => $rs)
+Updated: if (is_array(self::$items) || is_object(self::$items)) { foreach (self::$items as $rs => $rs) {
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRrsItem.php
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRmask.php
+Original: foreach ($checked_masks as $checked_mask => $checked_mask)
+Updated: if (is_array($checked_masks) || is_object($checked_masks)) { foreach ($checked_masks as $checked_mask => $checked_mask) {
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRmask.php
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($result as $row => $row)
+Updated: if (is_array($result) || is_object($result)) { foreach ($result as $row => $row) {
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php
+Original: foreach ($rolelist as $role => $role)
+Updated: if (is_array($rolelist) || is_object($rolelist)) { foreach ($rolelist as $role => $role) {
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php

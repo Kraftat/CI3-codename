@@ -1,0 +1,1431 @@
+Changes in Accounting.php:
+Line 40:
+Before:             $this->form_validation->set_rules('branch_id', translate('branch'), 'required');
+After:             $this->validation->set_rules('branch_id', translate('branch'), 'required');
+
+Line 42:
+Before:         $this->form_validation->set_rules('account_name', translate('account_name'), ['trim', 'required', ['unique_account_name', [$this->accounting_model, 'unique_account_name']]]);
+After:         $this->validation->set_rules('account_name', translate('account_name'), ['trim', 'required', ['unique_account_name', [$this->accounting_model, 'unique_account_name']]]);
+
+Line 43:
+Before:         $this->form_validation->set_rules('opening_balance', translate('opening_balance'), 'trim|numeric');
+After:         $this->validation->set_rules('opening_balance', translate('opening_balance'), 'trim|numeric');
+
+Line 64:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 91:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 127:
+Before:                 $this->form_validation->set_rules('branch_id', translate('branch'), 'required');
+After:                 $this->validation->set_rules('branch_id', translate('branch'), 'required');
+
+Line 129:
+Before:             $this->form_validation->set_rules('voucher_head', translate('name'), ['trim', 'required', ['unique_voucher_head', [$this->accounting_model, 'unique_voucher_head']]]);
+After:             $this->validation->set_rules('voucher_head', translate('name'), ['trim', 'required', ['unique_voucher_head', [$this->accounting_model, 'unique_voucher_head']]]);
+
+Line 130:
+Before:             $this->form_validation->set_rules('type', translate('type'), 'trim|required');
+After:             $this->validation->set_rules('type', translate('type'), 'trim|required');
+
+Line 152:
+Before:                 $this->form_validation->set_rules('branch_id', translate('branch'), 'required');
+After:                 $this->validation->set_rules('branch_id', translate('branch'), 'required');
+
+Line 154:
+Before:             $this->form_validation->set_rules('voucher_head', translate('name'), ['trim', 'required', ['unique_voucher_head', [$this->accounting_model, 'unique_voucher_head']]]);
+After:             $this->validation->set_rules('voucher_head', translate('name'), ['trim', 'required', ['unique_voucher_head', [$this->accounting_model, 'unique_voucher_head']]]);
+
+Line 164:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 233:
+Before:                 $this->form_validation->set_rules('branch_id', translate('branch'), 'required');
+After:                 $this->validation->set_rules('branch_id', translate('branch'), 'required');
+
+Line 235:
+Before:             $this->form_validation->set_rules('account_id', translate('account'), 'trim|required');
+After:             $this->validation->set_rules('account_id', translate('account'), 'trim|required');
+
+Line 236:
+Before:             $this->form_validation->set_rules('voucher_head_id', translate('voucher_head'), 'trim|required');
+After:             $this->validation->set_rules('voucher_head_id', translate('voucher_head'), 'trim|required');
+
+Line 237:
+Before:             $this->form_validation->set_rules('amount', translate('amount'), 'trim|required|numeric');
+After:             $this->validation->set_rules('amount', translate('amount'), 'trim|required|numeric');
+
+Line 238:
+Before:             $this->form_validation->set_rules('date', translate('date'), 'trim|required|callback_get_valid_date');
+After:             $this->validation->set_rules('date', translate('date'), 'trim|required|callback_get_valid_date');
+
+Line 253:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 277:
+Before:             $this->form_validation->set_rules('voucher_head_id', translate('voucher_head'), 'trim|required');
+After:             $this->validation->set_rules('voucher_head_id', translate('voucher_head'), 'trim|required');
+
+Line 278:
+Before:             $this->form_validation->set_rules('date', translate('date'), 'trim|required');
+After:             $this->validation->set_rules('date', translate('date'), 'trim|required');
+
+Line 287:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 307:
+Before:             $this->form_validation->set_rules('voucher_head_id', translate('voucher_head'), 'trim|required');
+After:             $this->validation->set_rules('voucher_head_id', translate('voucher_head'), 'trim|required');
+
+Line 308:
+Before:             $this->form_validation->set_rules('date', translate('date'), 'trim|required');
+After:             $this->validation->set_rules('date', translate('date'), 'trim|required');
+
+Line 317:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 488:
+Before:             $this->form_validation->set_message("get_valid_date", "Please Enter Correct Date");
+After:             $this->validation->set_message("get_valid_date", "Please Enter Correct Date");
+
+Changes in Addons.php:
+Line 71:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 388:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Admissionpayment.php:
+Line 142:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 193:
+Before:                     $this->session->set_flashdata('success', $success);
+After:                     session()->set_flashdata('success', $success);
+
+Line 239:
+Before:                     $this->session->set_flashdata('success', $success);
+After:                     session()->set_flashdata('success', $success);
+
+Line 315:
+Before:                         $this->session->set_flashdata('success', $success);
+After:                         session()->set_flashdata('success', $success);
+
+Line 398:
+Before:                     $this->session->set_flashdata('success', $success);
+After:                     session()->set_flashdata('success', $success);
+
+Line 446:
+Before:                 $this->session->set_flashdata('success', $success);
+After:                 session()->set_flashdata('success', $success);
+
+Line 501:
+Before:                 $this->session->set_flashdata('success', $success);
+After:                 session()->set_flashdata('success', $success);
+
+Line 564:
+Before:             $this->session->set_flashdata('success', $success);
+After:             session()->set_flashdata('success', $success);
+
+Line 607:
+Before:                 $this->session->set_flashdata('success', $success);
+After:                 session()->set_flashdata('success', $success);
+
+Line 732:
+Before:                 $this->session->set_flashdata('success', $success);
+After:                 session()->set_flashdata('success', $success);
+
+Line 780:
+Before:             $this->session->set_flashdata('success', $success);
+After:             session()->set_flashdata('success', $success);
+
+Line 861:
+Before:         $this->session->set_flashdata('success', $success);
+After:         session()->set_flashdata('success', $success);
+
+Changes in Advance_salary.php:
+Line 117:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 165:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Alumni.php:
+Line 125:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 257:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Attachments.php:
+Line 113:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 180:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Authentication.php:
+Line 19:
+Before:         $this->authenticationModel = new AuthenticationModel();
+After:         $this->AuthenticationModel = new \App\Models\AuthenticationModel();
+
+Changes in Award.php:
+Line 71:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 107:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Backup.php:
+Line 102:
+Before:             $this->upload->initialize($config);
+After:             $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 104:
+Before:                 $error = $this->upload->display_errors('', ' ');
+After:                 $error = $file = $this->request->getFile('attachment_file'); $file->display_errors('', ' ');
+
+Line 108:
+Before:                 $data = ['upload_data' => $this->upload->data()];
+After:                 $data = ['upload_data' => $file = $this->request->getFile('attachment_file'); $file->data()];
+
+Line 131:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Card_manage.php:
+Line 85:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 115:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 290:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 320:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Certificate.php:
+Line 72:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 100:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Classes.php:
+Line 68:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 107:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 170:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Communication.php:
+Line 91:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 121:
+Before:                     $this->upload->initialize($config);
+After:                     $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 123:
+Before:                         $arrayMsg['file_name'] = $this->upload->data('orig_name');
+After:                         $arrayMsg['file_name'] = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 124:
+Before:                         $arrayMsg['enc_name'] = $this->upload->data('file_name');
+After:                         $arrayMsg['enc_name'] = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 130:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Custom_domain.php:
+Line 128:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 194:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Custom_field.php:
+Line 87:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Dashboard.php:
+Line 17:
+Before:         $this->dashboardModel = new DashboardModel();
+After:         $this->DashboardModel = new \App\Models\DashboardModel();
+
+Line 18:
+Before:         $this->applicationModel = new ApplicationModel();
+After:         $this->ApplicationModel = new \App\Models\ApplicationModel();
+
+Changes in Employee.php:
+Line 192:
+Before:                 $this->session->set_flashdata('profile_tab', 1);
+After:                 session()->set_flashdata('profile_tab', 1);
+
+Line 195:
+Before:                 $this->session->set_flashdata('profile_tab', 1);
+After:                 session()->set_flashdata('profile_tab', 1);
+
+Line 294:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 310:
+Before:             $this->session->set_flashdata('bank_tab', 1);
+After:             session()->set_flashdata('bank_tab', 1);
+
+Line 313:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 327:
+Before:             $this->session->set_flashdata('bank_tab', 1);
+After:             session()->set_flashdata('bank_tab', 1);
+
+Line 331:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 341:
+Before:             $this->session->set_flashdata('bank_tab', 1);
+After:             session()->set_flashdata('bank_tab', 1);
+
+Line 374:
+Before:             $this->upload->initialize($config);
+After:             $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 376:
+Before:                 $insert_doc['file_name'] = $this->upload->data('orig_name');
+After:                 $insert_doc['file_name'] = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 377:
+Before:                 $insert_doc['enc_name'] = $this->upload->data('file_name');
+After:                 $insert_doc['enc_name'] = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 381:
+Before:                 set_alert('error', strip_tags((string) $this->upload->display_errors()));
+After:                 set_alert('error', strip_tags((string) $file = $this->request->getFile('attachment_file'); $file->display_errors()));
+
+Line 383:
+Before:             $this->session->set_flashdata('documents_details', 1);
+After:             session()->set_flashdata('documents_details', 1);
+
+Line 386:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 406:
+Before:                 $this->upload->initialize($config);
+After:                 $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 413:
+Before:                     $insert_doc['file_name'] = $this->upload->data('orig_name');
+After:                     $insert_doc['file_name'] = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 414:
+Before:                     $insert_doc['enc_name'] = $this->upload->data('file_name');
+After:                     $insert_doc['enc_name'] = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 416:
+Before:                     set_alert('error', strip_tags((string) $this->upload->display_errors()));
+After:                     set_alert('error', strip_tags((string) $file = $this->request->getFile('attachment_file'); $file->display_errors()));
+
+Line 423:
+Before:             $this->session->set_flashdata('documents_details', 1);
+After:             session()->set_flashdata('documents_details', 1);
+
+Line 425:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 440:
+Before:             $this->session->set_flashdata('documents_details', 1);
+After:             session()->set_flashdata('documents_details', 1);
+
+Line 506:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 583:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 710:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Errors.php:
+Line 24:
+Before:         $this->applicationModel = new ApplicationModel();
+After:         $this->ApplicationModel = new \App\Models\ApplicationModel();
+
+Changes in Event.php:
+Line 86:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 154:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 239:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Exam.php:
+Line 99:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 126:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 194:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 271:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 332:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 441:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 486:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 512:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 777:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Fees.php:
+Line 76:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 102:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 186:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 246:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 301:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 330:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 612:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 732:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 761:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 940:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 1054:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Feespayment.php:
+Line 172:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in FrontendController.php:
+Line 13:
+Before:         $this->homeModel = new HomeModel();
+After:         $this->HomeModel = new \App\Models\HomeModel();
+
+Line 14:
+Before:         $this->saasModel = new SaasModel();
+After:         $this->SaasModel = new \App\Models\SaasModel();
+
+Changes in Home.php:
+Line 300:
+Before:                     $this->session->set_flashdata('success', $success);
+After:                     session()->set_flashdata('success', $success);
+
+Line 306:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 326:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 377:
+Before:             $this->upload->initialize($config);
+After:             $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 379:
+Before:                 $return_photo = $this->upload->data('file_name');
+After:                 $return_photo = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 436:
+Before:                         $this->session->set_flashdata('msg_success', 'Message Successfully Sent. We will contact you shortly.');
+After:                         session()->set_flashdata('msg_success', 'Message Successfully Sent. We will contact you shortly.');
+
+Line 438:
+Before:                         $this->session->set_flashdata('msg_error', 'Message Not Successfully Sent. Error - ' . $send);
+After:                         session()->set_flashdata('msg_error', 'Message Not Successfully Sent. Error - ' . $send);
+
+Line 442:
+Before:                     $this->session->set_flashdata('error', $error);
+After:                     session()->set_flashdata('error', $error);
+
+Line 496:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 548:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 594:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Homework.php:
+Line 85:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 112:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 167:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Hostels.php:
+Line 68:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 97:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 163:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 217:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 246:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Install.php:
+Line 18:
+Before:         $this->installModel = new InstallModel();
+After:         $this->InstallModel = new \App\Models\InstallModel();
+
+Changes in Inventory.php:
+Line 77:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 107:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 231:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 262:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 607:
+Before:                     $this->session->set_flashdata('active_tab', 2);
+After:                     session()->set_flashdata('active_tab', 2);
+
+Line 611:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 657:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 684:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 851:
+Before:                     $this->session->set_flashdata('active_tab', 2);
+After:                     session()->set_flashdata('active_tab', 2);
+
+Line 855:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Leave.php:
+Line 133:
+Before:                     $this->upload->initialize($config);
+After:                     $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 134:
+Before:                     $this->upload->do_upload("attachment_file");
+After:                     $file = $this->request->getFile('attachment_file'); $file->do_upload("attachment_file");
+
+Line 135:
+Before:                     $orig_file_name = $this->upload->data('orig_name');
+After:                     $orig_file_name = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 136:
+Before:                     $enc_file_name = $this->upload->data('file_name');
+After:                     $enc_file_name = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 144:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 271:
+Before:                     $this->upload->initialize($config);
+After:                     $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 272:
+Before:                     $this->upload->do_upload("attachment_file");
+After:                     $file = $this->request->getFile('attachment_file'); $file->do_upload("attachment_file");
+
+Line 273:
+Before:                     $orig_file_name = $this->upload->data('orig_name');
+After:                     $orig_file_name = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 274:
+Before:                     $enc_file_name = $this->upload->data('file_name');
+After:                     $enc_file_name = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 345:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Library.php:
+Line 85:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 116:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 180:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 253:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 292:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 368:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Live_class.php:
+Line 134:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 162:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 226:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Marksheet_template.php:
+Line 66:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 94:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Multiclass.php:
+Line 99:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Offline_payments.php:
+Line 70:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 97:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Online_admission.php:
+Line 324:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Onlineexam.php:
+Line 104:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 171:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 289:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 330:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 422:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 472:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 683:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 803:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Onlineexam_payment.php:
+Line 158:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Parents.php:
+Line 182:
+Before:                 $this->session->set_flashdata('profile_tab', 1);
+After:                 session()->set_flashdata('profile_tab', 1);
+
+Line 185:
+Before:                 $this->session->set_flashdata('profile_tab', 1);
+After:                 session()->set_flashdata('profile_tab', 1);
+
+Line 260:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Payroll.php:
+Line 146:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 205:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Profile.php:
+Line 175:
+Before:                     $error = $this->form_validation->error_array();
+After:                     $error = $this->validation->error_array();
+
+Line 247:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 272:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Qrcode_attendance.php:
+Line 411:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Reception.php:
+Line 62:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 92:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 157:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 187:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 235:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 265:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 312:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 342:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 403:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 439:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 468:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 508:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Reception_config.php:
+Line 49:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 75:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 101:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 127:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 153:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 185:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Saas.php:
+Line 89:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 117:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 400:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 454:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 574:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 645:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 669:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 751:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 814:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 838:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 872:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 895:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 933:
+Before:                     $this->session->set_flashdata('test-email-error', 'Email Configuration not found.');
+After:                     session()->set_flashdata('test-email-error', 'Email Configuration not found.');
+
+Line 947:
+Before:                     $this->session->set_flashdata('test-email-success', 1);
+After:                     session()->set_flashdata('test-email-success', 1);
+
+Line 949:
+Before:                     $this->session->set_flashdata('test-email-error', 'Mailer Error: ' . $r);
+After:                     session()->set_flashdata('test-email-error', 'Mailer Error: ' . $r);
+
+Line 953:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 998:
+Before:             $this->session->set_flashdata('alert-message-error', $errors);
+After:             session()->set_flashdata('alert-message-error', $errors);
+
+Line 1005:
+Before:             $this->session->set_flashdata('alert-message-success', 'Request updated successfully.');
+After:             session()->set_flashdata('alert-message-success', 'Request updated successfully.');
+
+Changes in Saas_offline_payments.php:
+Line 71:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 95:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Saas_payment.php:
+Line 112:
+Before:                     $this->upload->initialize($config);
+After:                     $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 114:
+Before:                         $orig_name = $this->upload->data('orig_name');
+After:                         $orig_name = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 115:
+Before:                         $enc_name = $this->upload->data('file_name');
+After:                         $enc_name = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 200:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 253:
+Before:                 $this->session->set_flashdata('success', $success);
+After:                 session()->set_flashdata('success', $success);
+
+Line 299:
+Before:                     $this->session->set_flashdata('success', $success);
+After:                     session()->set_flashdata('success', $success);
+
+Line 375:
+Before:                         $this->session->set_flashdata('success', $success);
+After:                         session()->set_flashdata('success', $success);
+
+Line 458:
+Before:                     $this->session->set_flashdata('success', $success);
+After:                     session()->set_flashdata('success', $success);
+
+Line 506:
+Before:                 $this->session->set_flashdata('success', $success);
+After:                 session()->set_flashdata('success', $success);
+
+Line 564:
+Before:                 $this->session->set_flashdata('success', $success);
+After:                 session()->set_flashdata('success', $success);
+
+Line 627:
+Before:             $this->session->set_flashdata('success', $success);
+After:             session()->set_flashdata('success', $success);
+
+Line 670:
+Before:                 $this->session->set_flashdata('success', $success);
+After:                 session()->set_flashdata('success', $success);
+
+Line 1031:
+Before:                     $this->session->set_flashdata('success', $success);
+After:                     session()->set_flashdata('success', $success);
+
+Changes in Saas_website.php:
+Line 125:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 243:
+Before:                     $this->session->set_flashdata('msg_success', 'Message Successfully Sent. We will contact you shortly.');
+After:                     session()->set_flashdata('msg_success', 'Message Successfully Sent. We will contact you shortly.');
+
+Line 245:
+Before:                     $this->session->set_flashdata('msg_error', $this->email->print_debugger());
+After:                     session()->set_flashdata('msg_error', $this->email->print_debugger());
+
+Line 249:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in School_settings.php:
+Line 106:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 201:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 232:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 261:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 290:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 319:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 349:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 378:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 406:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 449:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 515:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 558:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 610:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 652:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 675:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 718:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 748:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 786:
+Before:                     $this->session->set_flashdata('test-email-error', 'Email Configuration not found.');
+After:                     session()->set_flashdata('test-email-error', 'Email Configuration not found.');
+
+Line 800:
+Before:                     $this->session->set_flashdata('test-email-success', 1);
+After:                     session()->set_flashdata('test-email-success', 1);
+
+Line 802:
+Before:                     $this->session->set_flashdata('test-email-error', 'Mailer Error: ' . $r);
+After:                     session()->set_flashdata('test-email-error', 'Mailer Error: ' . $r);
+
+Line 806:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Sections.php:
+Line 78:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Sendsmsmail.php:
+Line 247:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 278:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 316:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Sessions.php:
+Line 77:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Settings.php:
+Line 74:
+Before:             $this->session->set_flashdata('active', 2);
+After:             session()->set_flashdata('active', 2);
+
+Line 88:
+Before:             $this->session->set_flashdata('active', 3);
+After:             session()->set_flashdata('active', 3);
+
+Line 113:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 170:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 198:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 226:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 252:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 280:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 342:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 370:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 399:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 427:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 456:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 483:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 510:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 537:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 574:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Student.php:
+Line 297:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 352:
+Before:                         $this->session->set_flashdata('csvimport', $err_msg);
+After:                         session()->set_flashdata('csvimport', $err_msg);
+
+Line 447:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 525:
+Before:             $this->session->set_flashdata('profile_tab', 1);
+After:             session()->set_flashdata('profile_tab', 1);
+
+Line 599:
+Before:             $this->upload->initialize($config);
+After:             $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 601:
+Before:                 $insert_doc['file_name'] = $this->upload->data('orig_name');
+After:                 $insert_doc['file_name'] = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 602:
+Before:                 $insert_doc['enc_name'] = $this->upload->data('file_name');
+After:                 $insert_doc['enc_name'] = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 606:
+Before:                 set_alert('error', strip_tags((string) $this->upload->display_errors()));
+After:                 set_alert('error', strip_tags((string) $file = $this->request->getFile('attachment_file'); $file->display_errors()));
+
+Line 608:
+Before:             $this->session->set_flashdata('documents_details', 1);
+After:             session()->set_flashdata('documents_details', 1);
+
+Line 611:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 632:
+Before:                 $this->upload->initialize($config);
+After:                 $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 639:
+Before:                     $insert_doc['file_name'] = $this->upload->data('orig_name');
+After:                     $insert_doc['file_name'] = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 640:
+Before:                     $insert_doc['enc_name'] = $this->upload->data('file_name');
+After:                     $insert_doc['enc_name'] = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 643:
+Before:                     set_alert('error', strip_tags((string) $this->upload->display_errors()));
+After:                     set_alert('error', strip_tags((string) $file = $this->request->getFile('attachment_file'); $file->display_errors()));
+
+Line 649:
+Before:             $this->session->set_flashdata('documents_details', 1);
+After:             session()->set_flashdata('documents_details', 1);
+
+Line 651:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Line 666:
+Before:             $this->session->set_flashdata('documents_details', 1);
+After:             session()->set_flashdata('documents_details', 1);
+
+Line 854:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 968:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 1054:
+Before:             $error = $this->form_validation->error_array();
+After:             $error = $this->validation->error_array();
+
+Changes in Student_promotion.php:
+Line 146:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Subject.php:
+Line 87:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 144:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 182:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 243:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Subscription.php:
+Line 246:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 281:
+Before:         $this->session->unset_userdata("params");
+After:         session()->unset_userdata("params");
+
+Changes in Timetable.php:
+Line 145:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 243:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Transport.php:
+Line 65:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 93:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 134:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 162:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 203:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 232:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 277:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 321:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Changes in Userrole.php:
+Line 147:
+Before:                     $this->upload->initialize($config);
+After:                     $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 148:
+Before:                     $this->upload->do_upload("attachment_file");
+After:                     $file = $this->request->getFile('attachment_file'); $file->do_upload("attachment_file");
+
+Line 149:
+Before:                     $orig_file_name = $this->upload->data('orig_name');
+After:                     $orig_file_name = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 150:
+Before:                     $enc_file_name = $this->upload->data('file_name');
+After:                     $enc_file_name = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 351:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 496:
+Before:                     $this->upload->initialize($config);
+After:                     $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 505:
+Before:                         $orig_name = $this->upload->data('orig_name');
+After:                         $orig_name = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 506:
+Before:                         $enc_name = $this->upload->data('file_name');
+After:                         $enc_name = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 510:
+Before:                         set_alert('error', $this->upload->display_errors());
+After:                         set_alert('error', $file = $this->request->getFile('attachment_file'); $file->display_errors());
+
+Line 523:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+
+Line 760:
+Before:                 $this->upload->initialize($config);
+After:                 $file = $this->request->getFile('attachment_file'); $file->initialize($config);
+
+Line 762:
+Before:                     $orig_name = $this->upload->data('orig_name');
+After:                     $orig_name = $file = $this->request->getFile('attachment_file'); $file->data('orig_name');
+
+Line 763:
+Before:                     $enc_name = $this->upload->data('file_name');
+After:                     $enc_name = $file = $this->request->getFile('attachment_file'); $file->data('file_name');
+
+Line 771:
+Before:                 $error = $this->form_validation->error_array();
+After:                 $error = $this->validation->error_array();
+

@@ -1,0 +1,309 @@
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/TimetableModel.php
+Line 99:         $sql = "SELECT sa.*, s.name as subject_name, te.time_start, te.time_end, te.hall_id, te.exam_date, te.mark_distribution FROM subject_assign as sa\r\n        LEFT JOIN subject as s ON s.id = sa.subject_id LEFT JOIN timetable_exam as te ON te.class_id = sa.class_id and te.section_id = sa.section_id and\r\n        te.subject_id = sa.subject_id and te.session_id = sa.session_id and te.exam_id = " . $db->escape($examID) . " WHERE sa.class_id = " . $db->escape($classID) . " AND sa.section_id = " . $db->escape($sectionID) . " AND sa.branch_id = " . $db->escape($branchID) . " AND sa.session_id = " . $db->escape($sessionID);
+Line 100:         $query = $db->query($sql);
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/RoleModel.php
+Line 100:     //             JOIN staff_privileges ON staff_privileges.permission_id = permission.id AND staff_privileges.role_id = " . $db->escape($role_id) . " 
+Line 101:     //             WHERE permission.module_id = " . $db->escape($module_id) . " 
+Line 103:     //     $query = $db->query($sql);
+Line 109:     //     $sql = "SELECT permission.*, staff_privileges.id as staff_privileges_id,staff_privileges.is_add,staff_privileges.is_edit,staff_privileges.is_view,staff_privileges.is_delete FROM permission LEFT JOIN staff_privileges ON staff_privileges.permission_id = permission.id and staff_privileges.role_id = " . $db->escape($role_id) . " WHERE permission.module_id = " . $db->escape($module_id) . " ORDER BY permission.id ASC";
+Line 110:     //     $query = $db->query($sql);
+Line 115:         $sql = "SELECT permission.*, \r\n                       staff_privileges.id as staff_privileges_id,\r\n                       staff_privileges.is_add, \r\n                       staff_privileges.is_edit, \r\n                       staff_privileges.is_view, \r\n                       staff_privileges.is_delete,\r\n                       admin_privileges.is_add as admin_is_add,\r\n                       admin_privileges.is_edit as admin_is_edit,\r\n                       admin_privileges.is_view as admin_is_view,\r\n                       admin_privileges.is_delete as admin_is_delete\r\n                FROM permission \r\n                LEFT JOIN staff_privileges \r\n                    ON staff_privileges.permission_id = permission.id \r\n                    AND staff_privileges.role_id = " . $db->escape($role_id) . " \r\n                LEFT JOIN staff_privileges as admin_privileges \r\n                    ON admin_privileges.permission_id = permission.id \r\n                    AND admin_privileges.role_id = " . $db->escape($admin_role_id) . " \r\n                WHERE permission.module_id = " . $db->escape($module_id) . " \r\n                ORDER BY permission.id ASC";
+Line 116:         $query = $db->query($sql);
+Line 122:         return $db->query($sql, array($role_id, $branch_id))->result_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/HostelModel.php
+Line 68:         $sql = "SELECT s.first_name, s.last_name, s.register_no, e.branch_id, e.id as enroll_id, h.name as hostel_name, r.name as room_name, r.bed_fee, rc.name as room_category\r\n        FROM student as s INNER JOIN enroll as e ON e.student_id = s.id INNER JOIN hostel as h ON h.id = s.hostel_id INNER JOIN hostel_room as r ON r.id = s.room_id LEFT JOIN\r\n        hostel_category as rc ON rc.id = r.category_id WHERE s.hostel_id != 0 AND s.room_id != 0 AND e.branch_id = " . $db->escape($branchID) . " AND e.class_id = " . $db->escape($classID) . " AND e.section_id = " . $db->escape($sectionID);
+Line 69:         $query = $db->query($sql)->result_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AttendancePeriodModel.php
+Line 138:         $sql = "SELECT `enroll`.`id` as `enroll_id`,`enroll`.`roll`,`student`.`first_name`,`student`.`last_name`,`student`.`id` as `student_id`,`student`.`register_no`,`student_subject_attendance`.`id` as `att_id`,`student_subject_attendance`.`status` as `att_status`,`student_subject_attendance`.`remark` as `att_remark` FROM `enroll` INNER JOIN `student` ON `student`.`id` = `enroll`.`student_id` LEFT JOIN `student_subject_attendance` ON `student_subject_attendance`.`enroll_id` = `enroll`.`id` AND `student_subject_attendance`.`date` = " . $db->escape($date) . " AND `student_subject_attendance`.`subject_timetable_id` = " . $db->escape($subject_timetableID) . " WHERE `enroll`.`class_id` = " . $db->escape($classID) . " AND `enroll`.`section_id` = " . $db->escape($sectionID) . " AND `enroll`.`branch_id` = " . $db->escape($branchID) . " AND `enroll`.`session_id` = " . $db->escape(get_session_id());
+Line 139:         return $db->query($sql)->result_array();
+Line 143:         $sql = "SELECT class.name as `class_name`,section.name as `section_name`, SUM(CASE WHEN `status` = 'P' THEN 1 ELSE 0 END) AS 'present',SUM(CASE WHEN `status` = 'A' THEN 1 ELSE 0 END) AS 'absent',SUM(CASE WHEN `status` = 'L' THEN 1 ELSE 0 END) AS 'late',SUM(CASE WHEN `status` = 'HD' THEN 1 ELSE 0 END) AS 'half_day' FROM `student_attendance` JOIN `enroll` on student_attendance.enroll_id=enroll.id INNER JOIN `sections_allocation` on (enroll.class_id=sections_allocation.class_id and enroll.section_id=sections_allocation.section_id) inner join `class` on class.id=sections_allocation.class_id INNER JOIN `section` on section.id=sections_allocation.section_id WHERE `enroll`.`session_id`=" . $db->escape(get_session_id()) . " AND enroll.branch_id = " . $db->escape($branchID) . " AND student_attendance.date = " . $db->escape($date) . " GROUP BY sections_allocation.id ORDER BY sections_allocation.class_id";
+Line 144:         $query = $db->query($sql);
+Line 151:         $sql = "SELECT `remark`,`status` FROM `student_subject_attendance` WHERE `enroll_id` = " . $db->escape($studentID) . " AND DATE(`date`) = " . $db->escape($date) . " AND `subject_timetable_id` = " . $db->escape($timetable_id);
+Line 152:         return $db->query($sql)->row_array();
+Line 157:         $sql = "SELECT `timetable_class`.`id`,`timetable_class`.`time_start`,`timetable_class`.`time_end` FROM `timetable_class` LEFT JOIN `section` ON `section`.`id` = `timetable_class`.`section_id` INNER JOIN `subject` ON `subject`.`id` = `timetable_class`.`subject_id` WHERE `timetable_class`.`day` = " . $db->escape($day) . " AND `timetable_class`.`session_id` = " . get_session_id() . " AND `timetable_class`.`class_id` = " . $classID . " AND `timetable_class`.`section_id` = " . $sectionID;
+Line 159:             $sql .= " AND `timetable_class`.`subject_id` = " . $db->escape($subject_id);
+Line 162:         $timetable_class = $db->query($sql)->row();
+Line 164:             $sql = "SELECT `remark`,`status` FROM `student_subject_attendance` WHERE `enroll_id` = " . $db->escape($studentID) . " AND DATE(`date`) = " . $db->escape($date) . " AND `subject_timetable_id` = " . $db->escape($timetable_class->id);
+Line 165:             $r = $db->query($sql)->row_array();
+Line 185:         $sql = "SELECT `timetable_class`.`id`, `timetable_class`.`time_start`,`timetable_class`.`time_end`,`subject`.`name` as `subjectname`,`subject`.`subject_code` FROM `timetable_class` LEFT JOIN `section` ON `section`.`id` = `timetable_class`.`section_id` INNER JOIN `subject` ON `subject`.`id` = `timetable_class`.`subject_id` WHERE `timetable_class`.`day` = " . $db->escape($day) . " AND `timetable_class`.`session_id` = " . get_session_id() . " AND `timetable_class`.`class_id` = " . $classID . " AND `timetable_class`.`section_id` = " . $sectionID . $subject_condition . " GROUP BY `timetable_class`.`subject_id`";
+Line 186:         return $db->query($sql);
+Line 190:         $sql = "SELECT `ssa`.*, `s`.`first_name`, `s`.`last_name`, `s`.`register_no`, `s`.`category_id`, `s`.`mobileno`,`e`.`roll` FROM `student_subject_attendance` as `ssa` INNER JOIN `enroll` as `e` ON `e`.`id` = `ssa`.`enroll_id` LEFT JOIN `student` as `s` ON `s`.`id` = `e`.`student_id` WHERE `ssa`.`subject_timetable_id` = " . $db->escape($subject_timetableID) . " AND `ssa`.`branch_id` = " . $db->escape($branchID) . " AND `e`.`class_id` = " . $db->escape($classID) . " AND `e`.`section_id` = " . $db->escape($sectionID) . " AND `e`.`session_id` = " . $db->escape(get_session_id());
+Line 191:         return $db->query($sql)->result_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/StudentModel.php
+Line 234:             $schoolconfig = $db->table('branch')->get('branch')->row();
+Line 252:             $config = $db->table('global_settings')->get('global_settings')->row();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/CardManageModel.php
+Line 313:         $builder->join('student as s', 'e.student_id = s.id and e.session_id = ' . $db->escape(get_session_id()), 'left');
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SmsModel.php
+Line 87:                 $exam = $db->table('exam')->get('exam')->row();
+Line 88:                 $subject_name = $db->table('subject')->get('subject')->row()->name;
+Line 90:                     $term_name = $db->table('exam_term')->get('exam_term')->row()->name;
+Line 106:                     $parent = $db->table('parent')->get('parent')->row_array();
+Line 169:                     $parent = $db->table('parent')->get('parent')->row_array();
+Line 199:                     $parent = $db->table('parent')->get('parent')->row_array();
+Line 232:                     $parent = $db->table('parent')->get('parent')->row_array();
+Line 261:                         $parent = $db->table('parent')->get('parent')->row_array();
+Line 273:         $sql = "SELECT `name`,`birthday`,`joining_date`,`mobileno`,`branch_id` FROM `staff` WHERE `id` = " . $db->escape($data['staff_id']) . " AND `branch_id` = " . $db->escape($branchID);
+Line 274:         $staff = $db->query($sql)->row_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AddonsModel.php
+Line 155:         return $db->table('addon')->get('addon')->row();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/MarksheetTemplateModel.php
+Line 146:         return $db->table('marksheet_template')->get('marksheet_template')->row_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/DashboardModel.php
+Line 124:         $this->db->where("start_date BETWEEN DATE_SUB(CURDATE() ,INTERVAL 1 MONTH) AND CURDATE() AND status = '2' AND role_id = '7' AND user_id = " . $db->escape($id));
+Line 148:         $this->db->where("h.date BETWEEN DATE_SUB(CURDATE(),INTERVAL 1 MONTH) AND CURDATE() AND fa.student_id = " . $db->escape($id) . " AND fa.session_id = " . $db->escape(get_session_id()));
+Line 159:             $sql = "SELECT `fa`.`id` as `allocation_id`,`gd`.`fee_type_id`,`gd`.`amount` FROM `fee_allocation` as `fa` INNER JOIN `fee_groups_details` as `gd` ON `gd`.`fee_groups_id` = `fa`.`group_id` WHERE MONTH(`gd`.`due_date`) = " . $db->escape($month) . " AND YEAR(`gd`.`due_date`) = '{$year}' AND `fa`.`session_id` = " . $db->escape(get_session_id());
+Line 161:                 $sql .= " AND `fa`.`branch_id` = " . $db->escape($branchID);
+Line 164:                 $sql .= " AND `fa`.`student_id` = " . $db->escape($studentID);
+Line 169:             $result = $db->query($sql)->result();
+Line 172:                 $sql = "SELECT SUM(`h`.`amount`) AS `total_paid`, SUM(`h`.`discount`) AS `total_discount` FROM `fee_payment_history` as `h` WHERE `h`.`allocation_id` = " . $db->escape($row->allocation_id) . " AND  `h`.`type_id` = " . $db->escape($row->fee_type_id);
+Line 173:                 $r = $db->query($sql)->row();
+Line 189:         $enrollID = $db->table('enroll')->get('enroll')->row()->id;
+Line 191:             $total_present[] = $db->query("SELECT id FROM student_attendance WHERE MONTH(date) = " . $db->escape($month) . " AND YEAR(date) = YEAR(CURDATE()) AND status = 'P' AND enroll_id = " . $db->escape($enrollID))->num_rows();
+Line 192:             $total_absent[] = $db->query("SELECT id FROM student_attendance WHERE MONTH(date) = " . $db->escape($month) . " AND YEAR(date) = YEAR(CURDATE()) AND status = 'A' AND enroll_id = " . $db->escape($enrollID))->num_rows();
+Line 193:             $total_late[] = $db->query("SELECT id FROM student_attendance WHERE MONTH(date) = " . $db->escape($month) . " AND YEAR(date) = YEAR(CURDATE()) AND status = 'L' AND enroll_id = " . $db->escape($enrollID))->num_rows();
+Line 200:         $classID = $db->table('enroll')->get('enroll')->row()->class_id;
+Line 203:         $this->db->where("date BETWEEN DATE_SUB(CURDATE() ,INTERVAL 1 MONTH) AND CURDATE() AND (class_id = " . $db->escape($classID) . " OR class_id = 'unfiltered') AND branch_id = " . $db->escape($branchID));
+Line 239:             $query .= " AND branch_id = " . $db->escape($branchID);
+Line 241:         $r = $db->query($query)->row_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SubscriptionModel.php
+Line 61:             $getPermissions = $db->table('permission_modules')->get('permission_modules')->getResult();
+Line 63:                 $get_existPermissions = $db->table('modules_manage')->get('modules_manage');
+Line 101:         $sql = "SELECT `name`,`email`,`photo`,`mobileno` FROM `staff` WHERE `id` = " . $db->escape(get_loggedin_user_id());
+Line 102:         $getUser = $db->query($sql)->row_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/FeesModel.php
+Line 149:         $variable = $db->table('fee_allocation')->get('fee_allocation')->getResult();
+Line 151:             $groupsDetails = $db->table('fee_groups_details')->get('fee_groups_details')->getResult();
+Line 169:         $builder->join('fee_groups_details as fd', 'fd.fee_groups_id = a.group_id and fd.fee_type_id = ' . $db->escape($typeID), 'left');
+Line 203:         $sql = "SELECT e.*, s.photo, CONCAT_WS(' ',s.first_name, s.last_name) as fullname, s.gender, s.register_no, s.parent_id, s.email, s.mobileno, IFNULL(fa.id, 0) as allocation_id FROM enroll as e INNER JOIN student as s ON e.student_id = s.id LEFT JOIN login_credential as l ON l.user_id = s.id AND l.role = '7' LEFT JOIN fee_allocation as fa ON fa.student_id = e.id AND fa.group_id = " . $db->escape($groupID) . " AND fa.session_id= " . $db->escape(get_session_id()) . " WHERE e.class_id = " . $db->escape($classID) . " AND e.branch_id = " . $db->escape($branchID) . " AND e.session_id = " . $db->escape(get_session_id());
+Line 205:             $sql .= " AND e.section_id =" . $db->escape($sectionID);
+Line 208:         return $db->query($sql)->result_array();
+Line 213:         $sql = "SELECT SUM(`fee_groups_details`.`amount` + `fee_allocation`.`prev_due`) as `total`, min(`fee_allocation`.`id`) as `inv_no` FROM `fee_allocation` LEFT JOIN `fee_groups_details` ON `fee_groups_details`.`fee_groups_id` = `fee_allocation`.`group_id` LEFT JOIN `fees_type` ON `fees_type`.`id` = `fee_groups_details`.`fee_type_id` WHERE `fee_allocation`.`student_id` = " . $db->escape($enrollID) . " AND `fee_allocation`.`session_id` = " . $db->escape(get_session_id());
+Line 214:         $balance = $db->query($sql)->row_array();
+Line 216:         $sql = "SELECT IFNULL(SUM(`fee_payment_history`.`amount`), 0) as `amount`, IFNULL(SUM(`fee_payment_history`.`discount`), 0) as `discount`, IFNULL(SUM(`fee_payment_history`.`fine`), 0) as `fine` FROM `fee_payment_history` LEFT JOIN `fee_allocation` ON `fee_payment_history`.`allocation_id` = `fee_allocation`.`id` WHERE `fee_allocation`.`student_id` = " . $db->escape($enrollID) . " AND `fee_allocation`.`session_id` = " . $db->escape(get_session_id());
+Line 217:         $paid = $db->query($sql)->row_array();
+Line 229:         $sql = "SELECT `fee_allocation`.`group_id`,`fee_allocation`.`prev_due`,`fee_allocation`.`id` as `allocation_id`, `fees_type`.`name`, `fees_type`.`system`, `fee_groups_details`.`amount`, `fee_groups_details`.`due_date`, `fee_groups_details`.`fee_type_id` FROM `fee_allocation` LEFT JOIN\r\n        `fee_groups_details` ON `fee_groups_details`.`fee_groups_id` = `fee_allocation`.`group_id` LEFT JOIN `fees_type` ON `fees_type`.`id` = `fee_groups_details`.`fee_type_id` WHERE\r\n        `fee_allocation`.`student_id` = " . $db->escape($enrollID) . " AND `fee_allocation`.`session_id` = " . $db->escape(get_session_id()) . " ORDER BY `fee_allocation`.`group_id` ASC, `fees_type`.`id` ASC";
+Line 231:         $r = $db->query($sql)->result_array();
+Line 256:         $sqlDeposit = "SELECT IFNULL(SUM(`amount`), '0.00') as `total_amount`, IFNULL(SUM(`discount`), '0.00') as `total_discount`, IFNULL(SUM(`fine`), '0.00') as `total_fine` FROM `fee_payment_history` WHERE `allocation_id` = " . $db->escape($allocationID) . " AND `type_id` = " . $db->escape($typeID);
+Line 257:         return $db->query($sqlDeposit)->row_array();
+Line 331:         $sql = "SELECT IFNULL(SUM(h.amount), '0') as `total_amount`, IFNULL(SUM(h.discount), '0') as `total_discount`, gd.amount as `full_amount`, fa.prev_due as `prev_due`, gd.`due_date`, e.student_id, e.id as enroll_id,e.roll, s.first_name, s.last_name, s.register_no, s.mobileno, c.name as `class_name`, se.name as `section_name` FROM fee_allocation as fa LEFT JOIN fee_payment_history as h ON h.allocation_id = fa.id and h.type_id = " . $db->escape($fee_feetype_id) . " INNER JOIN fee_groups_details as gd ON gd.fee_groups_id = fa.group_id and gd.fee_type_id = " . $db->escape($fee_feetype_id) . " INNER JOIN\r\n        enroll as e ON e.id = fa.student_id LEFT JOIN student as s ON s.id = e.student_id LEFT JOIN class as c ON c.id = e.class_id LEFT JOIN section as se ON se.id = e.section_id WHERE\r\n        fa.group_id = " . $db->escape($feegroup_id) . " AND fa.session_id = " . $db->escape(get_session_id()) . " AND e.class_id = " . $db->escape($class_id);
+Line 333:             $sql .= " AND e.section_id = " . $db->escape($section_id);
+Line 336:         $result = $db->query($sql)->result_array();
+Line 347:         $builder->join('enroll as e', 'e.id = fa.student_id and e.session_id = ' . $db->escape(get_session_id()), 'inner');
+Line 415:         $builder->join('enroll as e', 'e.id = fa.student_id and e.session_id =  ' . $db->escape(get_session_id()), 'inner');
+Line 512:             $totalAmount = $db->table('fee_groups_details')->get('fee_groups_details')->row_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/UserroleModel.php
+Line 153:         $sql = "SELECT `student_attendance`.* FROM `student_attendance` WHERE `enroll_id` = " . $db->escape($enroll_id) . " AND `date` = " . $db->escape($date);
+Line 154:         return $db->query($sql)->row_array();
+Line 228:         $enroll = $db->table('enroll')->get('enroll')->row();
+Line 229:         $branch_id = $db->escape(get_loggedin_branch_id());
+Line 230:         $search_arr[] = " `online_exam`.`branch_id` = {$branch_id} AND `online_exam`.`class_id` = " . $db->escape($enroll->class_id);
+Line 249:         $records = $db->query($sql)->result();
+Line 259:         $studentID = $db->escape(get_loggedin_user_id());
+Line 265:         $records = $db->query($sql)->result();
+Line 305:                         $action .= '<a href="javascript:void(0);" onclick="paymentModal(' . $db->escape($record->id) . ')" class="btn btn-circle btn-default"> <i class="far fa-credit-card"></i> ' . translate('pay') . " & " . translate('take_exam') . '</a>';
+Line 310:                     $action .= '<a href="javascript:void(0);" onclick="getStudentResult(' . $db->escape($record->id) . ')" class="btn btn-circle btn-default"> <i class="far fa-users-viewfinder"></i> ' . translate('view') . " " . translate('result') . '</a>';
+Line 337:         $onlineexamID = $db->escape($onlineexamID);
+Line 338:         $sessionID = $db->escape(get_session_id());
+Line 339:         $branchID = $db->escape(get_loggedin_branch_id());
+Line 340:         $studentID = $db->escape(get_loggedin_user_id());
+Line 342:         $records = $db->query($sql)->row();
+Line 375:         $row = $db->table('branch')->get('branch')->row()->offline_payments;
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/HomeworkModel.php
+Line 42:         $countStu = $db->table('enroll')->get('enroll')->num_rows();
+Line 43:         $countEva = $db->table('homework_evaluation')->get('homework_evaluation')->num_rows();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/UserLoginLogModel.php
+Line 68:             $branch_id = $db->escape(get_loggedin_branch_id());
+Line 87:             $branchID = $db->escape(get_loggedin_branch_id());
+Line 90:         $records = $db->query($sql)->result();
+Line 103:         $records = $db->query($sql)->result();
+Line 117:         $records = $db->query($sql)->result();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/MulticlassModel.php
+Line 38:         $sql = "SELECT `e`.*, `s`.`photo`,CONCAT_WS(' ',`s`.`first_name`, `s`.`last_name`) as `fullname`, `s`.`register_no`, `s`.`gender`, `s`.`parent_id`, `s`.`mobileno`, `s`.`birthday`, `s`.`admission_date`, `l`.`active`, `l`.`username` as `stu_username` FROM `enroll` as `e` INNER JOIN `student` as `s` ON `e`.`student_id` = `s`.`id` INNER JOIN `login_credential` as `l` ON `l`.`user_id` = `s`.`id` and `l`.`role` = 7 WHERE `e`.`class_id` = " . $db->escape($classID) . " AND `e`.`branch_id` = " . $db->escape($branchID) . " AND `e`.`session_id` = " . $db->escape(get_session_id()) . " AND `e`.`section_id` = " . $db->escape($sectionID) . " AND `l`.`active` = 1 ORDER BY `e`.`id` ASC";
+Line 39:         $result = $db->query($sql)->result_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AlumniModel.php
+Line 58:         $sql = "SELECT `e`.`id`, CONCAT_WS(' ',`s`.`first_name`, `s`.`last_name`) as `fullname`, `s`.`register_no`, `s`.`gender`,`alumni`.`id` as `alumni_id`, `alumni`.`email`, `alumni`.`mobile_no`,`alumni`.`address`,`alumni`.`profession`,`alumni`.`photo`,`c`.`name` as `class_name`, `se`.`name` as `section_name` FROM `enroll` as `e` INNER JOIN `student` as `s` ON `e`.`student_id` = `s`.`id` LEFT JOIN `class` as `c` ON `e`.`class_id` = `c`.`id` LEFT JOIN `alumni_students` as `alumni` ON `alumni`.`enroll_id` = `e`.`id` LEFT JOIN `section` as `se` ON `e`.`section_id`=`se`.`id` WHERE `e`.`class_id` = " . $db->escape($classID) . " AND `e`.`branch_id` = " . $db->escape($branchID) . " AND `e`.`session_id` = " . $db->escape($session_id);
+Line 60:             $sql .= " AND `e`.`section_id` = " . $db->escape($sectionID);
+Line 63:         return $db->query($sql)->result_array();
+Line 67:         $sql = "SELECT `e`.`id`, CONCAT_WS(' ',`s`.`first_name`, `s`.`last_name`) as `fullname`,`alumni`.`id` as `alumni_id`, `alumni`.`email`, `alumni`.`mobile_no` FROM `enroll` as `e` INNER JOIN `student` as `s` ON `e`.`student_id` = `s`.`id` INNER JOIN `alumni_students` as `alumni` ON `alumni`.`enroll_id` = `e`.`id` WHERE `e`.`branch_id` = " . $db->escape($branchID);
+Line 69:             $sql .= " AND `e`.`class_id` = " . $db->escape($classID) . " AND `e`.`session_id` = " . $db->escape($session_id);
+Line 72:             $sql .= " AND `e`.`section_id` = " . $db->escape($sectionID);
+Line 75:         return $db->query($sql)->result_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/TransportModel.php
+Line 37:         if ($db->affectedRows() > 0) {
+Line 52:         if ($db->affectedRows() > 0) {
+Line 67:         if ($db->affectedRows() > 0) {
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/BirthdayModel.php
+Line 70:         $sql = "SELECT `e`.*, `s`.`photo`, CONCAT_WS(' ',`s`.`first_name`, `s`.`last_name`) as `fullname`, `s`.`register_no`, `s`.`parent_id`, `s`.`email`, `s`.`mobileno`, `s`.`birthday`, `c`.`name` as `class_name`, `se`.`name` as `section_name` FROM `enroll` as `e` INNER JOIN `student` as `s` ON `e`.`student_id` = `s`.`id` LEFT JOIN `class` as `c` ON `e`.`class_id` = `c`.`id` LEFT JOIN `section` as `se` ON `e`.`section_id`=`se`.`id` WHERE `e`.`session_id` = " . $db->escape(get_session_id());
+Line 72:             $sql .= " AND MONTH(`s`.`birthday`) >= " . $db->escape(date('m', strtotime($start))) . " AND DAY(`s`.`birthday`) >= " . $db->escape(date('d', strtotime($start)));
+Line 73:             $sql .= " AND MONTH(`s`.`birthday`) <= " . $db->escape(date('m', strtotime($end))) . " AND DAY(`s`.`birthday`) <= " . $db->escape(date('d', strtotime($end)));
+Line 76:             $sql .= " AND `e`.`branch_id` = " . $db->escape($branchID);
+Line 79:         return $db->query($sql)->result_array();
+Line 84:         $sql .= " WHERE MONTH(`s`.`birthday`) >= " . $db->escape(date('m', strtotime($start))) . " AND DAY(`s`.`birthday`) >= " . $db->escape(date('d', strtotime($start)));
+Line 85:         $sql .= " AND MONTH(`s`.`birthday`) <= " . $db->escape(date('m', strtotime($end))) . " AND DAY(`s`.`birthday`) <= " . $db->escape(date('d', strtotime($end)));
+Line 87:             $sql .= " AND `s`.`branch_id` = " . $db->escape($branchID);
+Line 90:         return $db->query($sql)->result_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/InventoryModel.php
+Line 93:             $sql .= " WHERE product_supplier.branch_id = " . $db->escape(get_loggedin_branch_id());
+Line 96:         $query = $db->query($sql);
+Line 123:                 $unit_ratio = $db->table('product')->get('product')->row()->unit_ratio;
+Line 157:         $sql = "UPDATE `purchase_bill` SET `payment_status` = " . $payment_status . ", `paid` = `paid` + " . $payment_amount . ", `due` = `due` - " . $payment_amount . " WHERE `id` = " . $db->escape($purchase_bill_id);
+Line 158:         $db->query($sql);
+Line 340:         $sql = "UPDATE `sales_bill` SET `payment_status` = " . $payment_status . ", `paid` = `paid` + " . $payment_amount . ", `due` = `due` - " . $payment_amount . " WHERE `id` = " . $db->escape($sales_bill_id);
+Line 341:         $db->query($sql);
+Line 346:             $sql = "UPDATE `product` SET `available_stock` = `available_stock` + " . $quantity . " WHERE `id` = " . $db->escape($productID);
+Line 348:             $sql = "UPDATE `product` SET `available_stock` = `available_stock` - " . $quantity . " WHERE `id` = " . $db->escape($productID);
+Line 350:         $db->query($sql);
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SaasEmailModel.php
+Line 35:         $emailTemplate = $db->table('saas_email_templates')->get('saas_email_templates')->row_array();
+Line 58:         $emailTemplate = $db->table('saas_email_templates')->get('saas_email_templates')->row_array();
+Line 78:         $emailTemplate = $db->table('saas_email_templates')->get('saas_email_templates')->row_array();
+Line 103:         $emailTemplate = $db->table('saas_email_templates')->get('saas_email_templates')->row_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ApplicationModel.php
+Line 162:         $sql = $db->query('SELECT @@sql_mode as mode')->row();
+Line 212:             $sql = "SELECT `name`,`email`,`mobileno`,`photo`,`branch_id` FROM `parent` WHERE `id` = " . $db->escape($userID);
+Line 213:             return $db->query($sql)->row_array();
+Line 215:             $sql = "SELECT `student`.`id`, `mobileno`, CONCAT_WS(' ',`student`.`first_name`, `student`.`last_name`) as `name`, `student`.`email`, `student`.`photo`, `enroll`.`branch_id` FROM `student` INNER JOIN `enroll` ON `enroll`.`student_id` = `student`.`id` AND `enroll`.`session_id` = " . $db->escape(get_session_id()) . " WHERE `student`.`id` = " . $db->escape($userID);
+Line 216:             return $db->query($sql)->row_array();
+Line 218:             $sql = "SELECT `name`,`mobileno`,`email`,`photo`,`branch_id` FROM `staff` WHERE `id` = " . $db->escape($userID);
+Line 219:             return $db->query($sql)->row_array();
+Line 224:         $sql = "SELECT `e`.*, `s`.`photo`, CONCAT_WS(' ',`s`.`first_name`, `s`.`last_name`) as `fullname`, `s`.`register_no`, `s`.`gender`, `s`.`parent_id`, `s`.`email`, `s`.`mobileno`, `s`.`blood_group`, `s`.`birthday`, `s`.`admission_date`, `l`.`active`, `l`.`username` as `stu_username`, `c`.`name` as `class_name`, `se`.`name` as `section_name`, `sc`.`name` as `category` FROM `enroll` as `e` INNER JOIN `student` as `s` ON `e`.`student_id` = `s`.`id` INNER JOIN `login_credential` as `l` ON `l`.`user_id` = `s`.`id` and `l`.`role` = 7 LEFT JOIN `class` as `c` ON `e`.`class_id` = `c`.`id` LEFT JOIN `section` as `se` ON `e`.`section_id`=`se`.`id` LEFT JOIN `student_category` as `sc` ON `sc`.`id` = `s`.`category_id` WHERE `e`.`class_id` = " . $db->escape($classID) . " AND `e`.`branch_id` = " . $db->escape($branchID) . " AND `e`.`session_id` = " . $db->escape(get_session_id());
+Line 226:             $sql .= " AND `e`.`section_id` = " . $db->escape($sectionID);
+Line 239:         return $db->query($sql)->result_array();
+Line 320:         $query = $db->table('message')->get('message');
+Line 327:         $query = $db->table('message')->get('message');
+Line 334:         $activeUser = $db->escape($activeUser);
+Line 336:         $result = $db->query($sql)->result_array();
+Line 350:             $getUSER = $db->query("SELECT name,photo FROM parent WHERE id = " . $db->escape($userID))->row_array();
+Line 353:             $getUSER = $db->query("SELECT CONCAT_WS(' ',first_name, last_name) as name,photo FROM  student WHERE id = " . $db->escape($userID))->row_array();
+Line 356:             $getUSER = $db->query("SELECT name,photo FROM staff WHERE id = " . $db->escape($userID))->row_array();
+Line 405:             $r = $db->table('branch')->get('branch')->row();
+Line 418:         $default_login = $db->table('enroll')->get('enroll')->row();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AwardModel.php
+Line 47:         if ($db->affectedRows() > 0) {
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AuthenticationModel.php
+Line 81:         $get = $db->table('front_cms_setting')->get('front_cms_setting')->row_array();
+Line 127:         $get = $db->table('branch')->get('branch')->row()->login;
+Line 132:         $get = $db->table('branch')->get('branch')->row()->login;
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/EmailModel.php
+Line 234:         $emailTemplate = $db->table('email_templates_details')->get('email_templates_details')->row_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AccountingModel.php
+Line 186:         $sql = "SELECT transactions.*, voucher_head.name as v_head, IFNULL(SUM(transactions.dr), 0) as total_dr, IFNULL(SUM(transactions.cr), 0) as total_cr FROM voucher_head LEFT JOIN\r\n        transactions ON transactions.voucher_head_id = voucher_head.id WHERE transactions.date >= " . $db->escape($start) . " AND transactions.date <= " . $db->escape($end) . " AND transactions.branch_id = " . $db->escape($branchID) . " GROUP BY transactions.voucher_head_id ORDER BY transactions.id ASC";
+Line 187:         return $db->query($sql)->result_array();
+Line 192:         $sql = "SELECT transactions.*, accounts.name as ac_name, voucher_head.name as v_head, payment_types.name as via_name FROM transactions LEFT JOIN\r\n        accounts ON accounts.id = transactions.account_id LEFT JOIN voucher_head ON voucher_head.id = transactions.voucher_head_id LEFT JOIN\r\n        payment_types ON payment_types.id = transactions.pay_via WHERE transactions.date >= " . $db->escape($start) . " AND\r\n        transactions.date <= " . $db->escape($end) . " AND transactions.branch_id = " . $db->escape($branchID) . " ORDER BY transactions.id ASC";
+Line 193:         return $db->query($sql)->result_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AttachmentsModel.php
+Line 64:                 $encrypt_name = $db->table('attachments')->get('attachments')->row()->enc_name;
+Line 83:         if ($db->affectedRows() > 0) {
+Line 98:         if ($db->affectedRows() > 0) {
+Line 117:             $classID = $db->table('enroll')->get('enroll')->row()->class_id;
+Line 121:             $classID = $db->table('enroll')->get('enroll')->row()->class_id;
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/PayrollModel.php
+Line 86:         $ad_salary = $db->table('advance_salary')->get('advance_salary')->row_array();
+Line 87:         $exist_verify = $db->table('payslip')->get('payslip')->num_rows();
+Line 205:         $builder->join('payslip', 'payslip.staff_id = staff.id and payslip.month = ' . $db->escape($month) . ' and payslip.year = ' . $db->escape($year), 'left');
+Line 216:         $sql = "SELECT `staff`.*, `staff_designation`.`name` as `designation_name`, `staff_department`.`name` as `department_name`, `login_credential`.`role` as `role_id`, `roles`.`name` as `role`,\r\n        `salary_template`.`name` as `template_name`, `salary_template`.`basic_salary`, `salary_template`.`overtime_salary`, `advance_salary`.`amount` as `advance_amount` FROM `staff` INNER JOIN\r\n        `login_credential` ON `login_credential`.`user_id` = `staff`.`id` LEFT JOIN `roles` ON `roles`.`id` = `login_credential`.`role` LEFT JOIN `staff_designation` ON\r\n        `staff_designation`.`id` = `staff`.`designation` LEFT JOIN `staff_department` ON `staff_department`.`id` = `staff`.`department` LEFT JOIN `salary_template` ON\r\n        `salary_template`.`id` = `staff`.`salary_template_id` LEFT JOIN `advance_salary` ON `advance_salary`.`staff_id` = `staff`.`id` AND \r\n        `advance_salary`.`deduct_month` = " . $db->escape($month) . " AND `advance_salary`.`year` = " . $db->escape($year) . " WHERE\r\n        `staff`.`id` = " . $db->escape($staff_id);
+Line 217:         return $db->query($sql)->row_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SchoolModel.php
+Line 52:             $api[$value->name] = $db->table('sms_credential')->get('sms_credential')->row_array();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/LibraryModel.php
+Line 51:         if ($db->affectedRows() > 0) {
+Line 76:         if ($db->affectedRows() > 0) {
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SubjectModel.php
+Line 61:             $sql .= " AND sa.branch_id = " . $db->escape(get_loggedin_branch_id());
+Line 64:         $result = $db->query($sql)->result();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ParentsModel.php
+Line 49:         if ($db->affectedRows() > 0) {
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ExamModel.php
+Line 38:         $sql = "SELECT `e`.*, `exam_term`.`name` as `term_name`, `b`.`name` as `branch_name` FROM `exam` as `e` INNER JOIN `branch` as `b` ON `b`.`id` = `e`.`branch_id` LEFT JOIN `exam_term` ON `exam_term`.`id` = `e`.`term_id` WHERE `e`.`id` = {$db->escape($id)}";
+Line 39:         return $db->query($sql)->row();
+Line 49:         $builder->join('exam_rank', 'exam_rank.enroll_id=e.id and exam_rank.exam_id = ' . $db->escape($exam_ID), 'left');
+Line 162:         $builder->join('mark as m', 'm.student_id = en.student_id and m.class_id = en.class_id and m.section_id = en.section_id and m.exam_id = ' . $db->escape($examID) . ' and m.subject_id = ' . $db->escape($subjectID), 'left');
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ReceptionModel.php
+Line 123:         $query = $db->table('enquiry_follow_up')->get('enquiry_follow_up');
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AttendanceModel.php
+Line 162:         $sql = "SELECT `enroll`.`id` as `enroll_id`,`enroll`.`roll`,`student`.`first_name`,`student`.`last_name`,`student`.`id` as `student_id`,`student`.`register_no`,`student_attendance`.`id` as `att_id`,`student_attendance`.`status` as `att_status`,`student_attendance`.`remark` as `att_remark` FROM `enroll` INNER JOIN `student` ON `student`.`id` = `enroll`.`student_id` LEFT JOIN `student_attendance` ON `student_attendance`.`enroll_id` = `enroll`.`id` AND `student_attendance`.`date` = " . $db->escape($date) . " WHERE `enroll`.`class_id` = " . $db->escape($classID) . " AND `enroll`.`section_id` = " . $db->escape($sectionID) . " AND `enroll`.`branch_id` = " . $db->escape($branchID) . " AND `enroll`.`session_id` = " . $db->escape(get_session_id());
+Line 163:         return $db->query($sql)->result_array();
+Line 167:         $sql = "SELECT `staff`.*, `lc`.`role`, `sa`.`id` as `atten_id`, IFNULL(`sa`.`status`, 0) as `att_status`, `sa`.`remark` as `att_remark` FROM `staff` LEFT JOIN `login_credential` as `lc` ON `lc`.`user_id` = `staff`.`id` and `lc`.`role` != '6' and `lc`.`role` != '7' LEFT JOIN `staff_attendance` as `sa` ON `sa`.`staff_id` = `staff`.`id` and `sa`.`date` = " . $db->escape($date) . " WHERE `staff`.`branch_id` = " . $db->escape($branchID) . " AND `lc`.`role` = " . $db->escape($roleID) . " AND `lc`.`active` = '1' ORDER BY `staff`.`id` ASC";
+Line 168:         return $db->query($sql)->result_array();
+Line 172:         $sql = "SELECT enroll.student_id,enroll.roll,student.first_name,student.last_name,student.register_no,exam_attendance.id as `atten_id`, exam_attendance.status as `att_status`,exam_attendance.remark as `att_remark` FROM `enroll` LEFT JOIN student ON student.id = enroll.student_id LEFT JOIN exam_attendance ON exam_attendance.student_id = student.id AND exam_attendance.exam_id = " . $db->escape($examID) . " AND exam_attendance.subject_id = " . $db->escape($subjectID) . " WHERE enroll.class_id = " . $db->escape($classID) . " AND enroll.section_id = " . $db->escape($sectionID) . " AND enroll.branch_id = " . $db->escape($branchID) . " AND enroll.session_id = " . $db->escape(get_session_id());
+Line 173:         return $db->query($sql)->result_array();
+Line 205:         $sql = "SELECT `ea`.*, `s`.`first_name`, `s`.`last_name`, `s`.`register_no`, `s`.`category_id`, `e`.`roll`, `sb`.`name` as `subject_name` FROM `exam_attendance` as `ea` LEFT JOIN `enroll` as `e` ON `e`.`student_id` = `ea`.`student_id` LEFT JOIN `student` as `s` ON `s`.`id` = `ea`.`student_id` LEFT JOIN `subject` as `sb` ON `sb`.`id` = `ea`.`subject_id` WHERE `ea`.`exam_id` = " . $db->escape($data['exam_id']) . " AND `ea`.`subject_id` = " . $db->escape($data['subject_id']) . " AND `ea`.`branch_id` = " . $db->escape($data['branch_id']) . " AND `e`.`class_id` = " . $db->escape($data['class_id']) . " AND `e`.`section_id` = " . $db->escape($data['section_id']) . " AND `e`.`session_id` = " . $db->escape(get_session_id());
+Line 206:         return $db->query($sql)->result_array();
+Line 211:         $sql = "SELECT `student_attendance`.* FROM `student_attendance` WHERE `enroll_id` = " . $db->escape($studentID) . " AND DATE(`date`) = " . $db->escape($date);
+Line 212:         return $db->query($sql)->row_array();
+Line 264:         $sql = "SELECT class.name as `class_name`,section.name as `section_name`, SUM(CASE WHEN `status` = 'P' THEN 1 ELSE 0 END) AS 'present',SUM(CASE WHEN `status` = 'A' THEN 1 ELSE 0 END) AS 'absent',SUM(CASE WHEN `status` = 'L' THEN 1 ELSE 0 END) AS 'late',SUM(CASE WHEN `status` = 'HD' THEN 1 ELSE 0 END) AS 'half_day' FROM `student_attendance` JOIN `enroll` on student_attendance.enroll_id=enroll.id INNER JOIN `sections_allocation` on (enroll.class_id=sections_allocation.class_id and enroll.section_id=sections_allocation.section_id) inner join `class` on class.id=sections_allocation.class_id INNER JOIN `section` on section.id=sections_allocation.section_id WHERE `enroll`.`session_id`=" . $db->escape(get_session_id()) . " AND enroll.branch_id = " . $db->escape($branchID) . " AND student_attendance.date = " . $db->escape($date) . " GROUP BY sections_allocation.id ORDER BY sections_allocation.class_id";
+Line 265:         $query = $db->query($sql);
+Line 271:         $sql = "SELECT count(`student_attendance`.`id`) as `status_count` FROM `student_attendance` WHERE `enroll_id` = " . $db->escape($enroll_id) . " AND DATE(`date`) >= " . $db->escape($start) . " AND DATE(`date`) <= " . $db->escape($end) . " AND `status` = " . $db->escape($type);
+Line 272:         return $db->query($sql)->row()->status_count;
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/QrcodeAttendanceModel.php
+Line 135:             $branch_id = $db->escape(get_loggedin_branch_id());
+Line 141:         $today = $db->escape(date('Y-m-d'));
+Line 142:         $sessionID = $db->escape(get_session_id());
+Line 144:         $branchID = $db->escape(get_loggedin_branch_id());
+Line 146:         $records = $db->query($sql)->result();
+Line 153:         $records = $db->query($sql)->result();
+Line 161:         $records = $db->query($sql)->result();
+Line 208:             $branch_id = $db->escape(get_loggedin_branch_id());
+Line 214:         $today = $db->escape(date('Y-m-d'));
+Line 215:         $sessionID = $db->escape(get_session_id());
+Line 217:         $branchID = $db->escape(get_loggedin_branch_id());
+Line 219:         $records = $db->query($sql)->result();
+Line 226:         $records = $db->query($sql)->result();
+Line 234:         $records = $db->query($sql)->result();
+Line 283:         $row = $db->table('qr_code_settings')->get('qr_code_settings')->row();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SaasModel.php
+Line 73:         if ($db->affectedRows() > 0) {
+Line 103:         $settings = $db->query($sql)->row();
+Line 109:                 $sql = "SELECT `expire_date` FROM `saas_subscriptions` WHERE date(`expire_date`) <= " . $db->escape($date) . " AND `school_id` = " . $db->escape($school_id);
+Line 110:                 $subscriptions = $db->query($sql)->row();
+Line 172:             $sql = "SELECT `id`,`expire_date` FROM `saas_subscriptions` WHERE `school_id` = " . $db->escape($school_id);
+Line 173:             $subscriptions = $db->query($sql)->row();
+Line 232:         $saasPackage = $db->table('saas_package')->get('saas_package')->row();
+Line 257:         $getPermissions = $db->table('permission_modules')->get('permission_modules')->getResult();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/OnlineAdmissionModel.php
+Line 105:             $schoolconfig = $db->table('branch')->get('branch')->row();
+Line 123:             $config = $db->table('global_settings')->get('global_settings')->row();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/OfflinePaymentsModel.php
+Line 52:         $r = $db->table('offline_fees_payments')->get('offline_fees_payments')->row();
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/BranchModel.php
+Line 56:         if ($db->affectedRows() > 0 || $file_upload == true) {
+Undefined $db usage found in: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/OnlineexamModel.php
+Line 224:             $branchID = $db->escape(get_loggedin_branch_id());
+Line 227:                 $search_arr[] = " `online_exam`.`created_by` = " . $db->escape(get_loggedin_user_id());
+Line 246:             $branchID = $db->escape(get_loggedin_branch_id());
+Line 249:                 $sql .= " AND `created_by` = " . $db->escape(get_loggedin_user_id());
+Line 252:         $records = $db->query($sql)->result();
+Line 259:         $records = $db->query($sql)->result();
+Line 267:         $records = $db->query($sql)->result();
+Line 280:                     $action .= '<button onclick="confirmModal(' . $db->escape(base_url('onlineexam/make_result_publish/' . $record->id)) . ')" class="btn btn-circle btn-default icon" data-toggle="tooltip" data-original-title="' . translate('make') . " " . translate('result_publish') . '"> <i class="far fa-square-poll-vertical"></i></button>';
+Line 435:         $branchID = $db->escape($postData['branch_id']);
+Line 436:         $examID = $db->escape($postData['examID']);
+Line 446:                 $search_arr[] = " `questions`.`created_by` = " . $db->escape(get_loggedin_user_id());
+Line 451:             $questionGroup = $db->escape($questionGroup);
+Line 456:             $questionType = $db->escape($questionType);
+Line 461:             $questionLevel = $db->escape($questionLevel);
+Line 466:             $classID = $db->escape($classID);
+Line 471:             $sectionID = $db->escape($sectionID);
+Line 476:             $subjectID = $db->escape($subjectID);
+Line 483:         $userID = $db->escape(get_loggedin_user_id());
+Line 487:                 $sql .= " AND `questions`.`created_by` = " . $db->escape(get_loggedin_user_id());
+Line 490:         $records = $db->query($sql)->result();
+Line 497:         $records = $db->query($sql)->result();
+Line 505:         $records = $db->query($sql)->result();
+Line 562:             $branch_id = $db->escape(get_loggedin_branch_id());
+Line 565:                 $search_arr[] = " `questions`.`created_by` = " . $db->escape(get_loggedin_user_id());
+Line 584:             $branchID = $db->escape(get_loggedin_branch_id());
+Line 587:                 $sql .= " AND `questions`.`created_by` = " . $db->escape(get_loggedin_user_id());
+Line 590:         $records = $db->query($sql)->result();
+Line 597:         $records = $db->query($sql)->result();
+Line 605:         $records = $db->query($sql)->result();
+Line 613:             $action .= '<button data-loading-text="<i class=' . "'far fa-spinner fa-spin'" . '></i>" class="btn btn-circle btn-default icon" data-toggle="tooltip" data-original-title="' . translate('view') . '" onclick="getQuestion(' . $db->escape($record->id) . ', this);"><i class="far fa-bars"></i></button>';
+Line 635:         $r = $db->table('online_exam_submitted')->get('online_exam_submitted')->row();
+Line 653:         $sql = "SELECT `questions_manage`.*, `questions`.`id` as `qus_id`, `questions`.*, `online_exam_answer`.`answer` as `sb_ans` FROM `questions_manage` INNER JOIN `questions` ON `questions`.`id` = `questions_manage`.`question_id` LEFT JOIN `online_exam_answer` ON `online_exam_answer`.`online_exam_id` = `questions_manage`.`onlineexam_id` and `online_exam_answer`.`question_id` = `questions`.`id` and `online_exam_answer`.`student_id` = " . $db->escape($studentID) . " WHERE `questions_manage`.`onlineexam_id` = " . $db->escape($onlineexamID) . " ORDER BY `questions_manage`.`id` ASC";
+Line 654:         $query = $db->query($sql);
+Line 659:         $onlineexamID = $db->escape($onlineexamID);
+Line 660:         $sessionID = $db->escape(get_session_id());
+Line 661:         $branchID = $db->escape(get_loggedin_branch_id());
+Line 669:         $records = $db->query($sql)->row();
+Line 681:         $query = $db->table('online_exam_attempts')->get('online_exam_attempts');

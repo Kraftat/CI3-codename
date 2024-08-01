@@ -1,0 +1,146 @@
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sslcommerz.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Authentication.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Authentication.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php
+
+Duplicate $db declarations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php
+
+Duplicate $db initializations found and fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php
+

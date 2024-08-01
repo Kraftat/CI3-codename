@@ -1,0 +1,258 @@
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Slug.php
+Original: foreach ($config as $key => $value)
+Updated: foreach ($config as &$value)
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Slug.php
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRtools.php
+Original: foreach ($frame as &$frameLine) {
+                
+                for($i=0; $i<$len; $i++) {
+                    $frameLine[$i] = ((ord($frameLine[$i])&1) !== 0)?'1':'0';
+                }
+            }
+            
+            return $frame;
+        }
+        
+        //----------------------------------------------------------------------
+        public static function tcpdfBarcodeArray($code, $mode = 'QR,L', $tcPdfVersion = '4.5.037'): array
+        {
+            $barcode_array = array();
+            
+            if (!is_array($mode)) {
+                $mode = explode(',', (string) $mode);
+            }
+                
+            $eccLevel = 'L';
+                
+            if (count($mode) > 1) {
+                $eccLevel = $mode[1];
+            }
+                
+            $qrTab = QRcode::text($code, false, $eccLevel);
+            $size = count($qrTab);
+                
+            $barcode_array['num_rows'] = $size;
+            $barcode_array['num_cols'] = $size;
+            $barcode_array['bcode'] = array();
+                
+            foreach ($qrTab as $line) {
+                $arrAdd = array();
+                foreach(str_split((string) $line) as $char)
+                    $arrAdd[] = ($char === '1')?1:0;
+
+                $barcode_array['bcode'][] = $arrAdd;
+            }
+                    
+            return $barcode_array;
+        }
+        
+        //----------------------------------------------------------------------
+        public static function clearCache(): void
+        {
+            self::$frames = array();
+        }
+        
+        //----------------------------------------------------------------------
+        public static function buildCache(): void
+        {
+			QRtools::markTime('before_build_cache');
+			
+			$qRmask = new QRmask();
+            for ($a=1; $a <= QRSPEC_VERSION_MAX; $a++) {
+                $frame = QRspec::newFrame($a);
+                $fileName = QR_CACHE_DIR.'frame_'.$a.'.png';
+                QRimage::png(self::binarize($frame), $fileName, 1, 0);
+				
+				$width = count($frame);
+				$bitMask = array_fill(0, $width, array_fill(0, $width, 0));
+				for ($maskNo=0; $maskNo<8; $maskNo++)
+					$qRmask->makeMaskNo($maskNo, $width, $frame, $bitMask, true);
+            }
+			
+			QRtools::markTime('after_build_cache');
+        }
+
+        //----------------------------------------------------------------------
+        public static function log($outfile, string $err): void
+        {
+            if (QR_LOG_DIR !== false && $err !== '') {
+                if ($outfile !== false) {
+                    file_put_contents(QR_LOG_DIR.basename((string) $outfile).'-errors.txt', date('Y-m-d H:i:s').': '.$err, FILE_APPEND);
+                } else {
+                    file_put_contents(QR_LOG_DIR.'errors.txt', date('Y-m-d H:i:s').': '.$err, FILE_APPEND);
+                }    
+            }
+        }
+        
+        //----------------------------------------------------------------------
+        public static function dumpMask($frame): void 
+        {
+            $width = count($frame);
+            for($y=0;$y<$width;$y++) {
+                for($x=0;$x<$width;$x++) {
+                    echo ord($frame[$y][$x]).',';
+                }
+            }
+        }
+        
+        //----------------------------------------------------------------------
+        public static function markTime($markerId): void
+        {
+            list($usec, $sec) = explode(" ", microtime());
+            $time = ((float)$usec + (float)$sec);
+            
+            if (!isset($GLOBALS['qr_time_bench'])) {
+                $GLOBALS['qr_time_bench'] = array();
+            }
+            
+            $GLOBALS['qr_time_bench'][$markerId] = $time;
+        }
+        
+        //----------------------------------------------------------------------
+        public static function timeBenchmark(): void
+        {
+            self::markTime('finish');
+        
+            $lastTime = 0;
+            $startTime = 0;
+            $p = 0;
+
+            echo '<table cellpadding="3" cellspacing="1">
+                    <thead><tr style="border-bottom:1px solid silver"><td colspan="2" style="text-align:center">BENCHMARK</td></tr></thead>
+                    <tbody>';
+
+            foreach($GLOBALS['qr_time_bench'] as $markerId => $thisTime)
+Updated: foreach ($frame as &$frameLine) {
+                
+                for($i=0; $i<$len; $i++) {
+                    $frameLine[$i] = ((ord($frameLine[$i])&1) !== 0)?'1':'0';
+                }
+            }
+            
+            return $frame;
+        }
+        
+        //----------------------------------------------------------------------
+        public static function tcpdfBarcodeArray($code, $mode = 'QR,L', $tcPdfVersion = '4.5.037'): array
+        {
+            $barcode_array = array();
+            
+            if (!is_array($mode)) {
+                $mode = explode(',', (string) $mode);
+            }
+                
+            $eccLevel = 'L';
+                
+            if (count($mode) > 1) {
+                $eccLevel = $mode[1];
+            }
+                
+            $qrTab = QRcode::text($code, false, $eccLevel);
+            $size = count($qrTab);
+                
+            $barcode_array['num_rows'] = $size;
+            $barcode_array['num_cols'] = $size;
+            $barcode_array['bcode'] = array();
+                
+            foreach ($qrTab as $line) {
+                $arrAdd = array();
+                foreach(str_split((string) $line) as $char)
+                    $arrAdd[] = ($char === '1')?1:0;
+
+                $barcode_array['bcode'][] = $arrAdd;
+            }
+                    
+            return $barcode_array;
+        }
+        
+        //----------------------------------------------------------------------
+        public static function clearCache(): void
+        {
+            self::$frames = array();
+        }
+        
+        //----------------------------------------------------------------------
+        public static function buildCache(): void
+        {
+			QRtools::markTime('before_build_cache');
+			
+			$qRmask = new QRmask();
+            for ($a=1; $a <= QRSPEC_VERSION_MAX; $a++) {
+                $frame = QRspec::newFrame($a);
+                $fileName = QR_CACHE_DIR.'frame_'.$a.'.png';
+                QRimage::png(self::binarize($frame), $fileName, 1, 0);
+				
+				$width = count($frame);
+				$bitMask = array_fill(0, $width, array_fill(0, $width, 0));
+				for ($maskNo=0; $maskNo<8; $maskNo++)
+					$qRmask->makeMaskNo($maskNo, $width, $frame, $bitMask, true);
+            }
+			
+			QRtools::markTime('after_build_cache');
+        }
+
+        //----------------------------------------------------------------------
+        public static function log($outfile, string $err): void
+        {
+            if (QR_LOG_DIR !== false && $err !== '') {
+                if ($outfile !== false) {
+                    file_put_contents(QR_LOG_DIR.basename((string) $outfile).'-errors.txt', date('Y-m-d H:i:s').': '.$err, FILE_APPEND);
+                } else {
+                    file_put_contents(QR_LOG_DIR.'errors.txt', date('Y-m-d H:i:s').': '.$err, FILE_APPEND);
+                }    
+            }
+        }
+        
+        //----------------------------------------------------------------------
+        public static function dumpMask($frame): void 
+        {
+            $width = count($frame);
+            for($y=0;$y<$width;$y++) {
+                for($x=0;$x<$width;$x++) {
+                    echo ord($frame[$y][$x]).',';
+                }
+            }
+        }
+        
+        //----------------------------------------------------------------------
+        public static function markTime($markerId): void
+        {
+            list($usec, $sec) = explode(" ", microtime());
+            $time = ((float)$usec + (float)$sec);
+            
+            if (!isset($GLOBALS['qr_time_bench'])) {
+                $GLOBALS['qr_time_bench'] = array();
+            }
+            
+            $GLOBALS['qr_time_bench'][$markerId] = $time;
+        }
+        
+        //----------------------------------------------------------------------
+        public static function timeBenchmark(): void
+        {
+            self::markTime('finish');
+        
+            $lastTime = 0;
+            $startTime = 0;
+            $p = 0;
+
+            echo '<table cellpadding="3" cellspacing="1">
+                    <thead><tr style="border-bottom:1px solid silver"><td colspan="2" style="text-align:center">BENCHMARK</td></tr></thead>
+                    <tbody>';
+
+            foreach($GLOBALS['qr_time_bench'] as &$thisTime)
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/qrcode/QRtools.php
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Recaptcha.php
+Original: foreach ($result as $key => $value)
+Updated: foreach ($result as &$value)
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Recaptcha.php
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Csvimport.php
+Original: foreach ($this->column_headers as $key => $value)
+Updated: foreach ($this->column_headers as &$value)
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Csvimport.php
+Original: foreach ($data as $key => $value)
+Updated: foreach ($data as &$value)
+Updated foreach in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Csvimport.php
+Original: foreach ($column_headers as $key => $value)
+Updated: foreach ($column_headers as &$value)
+Updated foreach loops in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Csvimport.php

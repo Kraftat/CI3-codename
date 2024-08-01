@@ -1,0 +1,420 @@
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php on line 217
+Line content:             $file_name = $db->table('homework_submit')->get('homework_submit')->row()->file_name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 420
+Line content:                         $term = $db->table('exam_term')->get('exam_term')->row()->name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php on line 50
+Line content:                         $term = $db->table('exam_term')->get('exam_term')->row()->name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php on line 108
+Line content:             $result = $db->table($table)->get($table)->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php on line 127
+Line content:             $classes = $db->table('class')->get('class')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 88
+Line content:             $branch_id = $db->table('online_admission')->get('online_admission')->row()->branch_id;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 94
+Line content:             if ($db->affectedRows() > 0) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 95
+Line content:                 $result = $db->table('custom_field')->get('custom_field')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 156
+Line content:                 $attendance = $db->table('student_attendance')->get('student_attendance')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 241
+Line content:             $attendance = $db->table($table)->get($table)->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php on line 204
+Line content:             $r = $db->table('offline_payment_types')->get('offline_payment_types')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php on line 319
+Line content:         $query = $db->table('book')->get('book')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sendsmsmail.php on line 425
+Line content:             $result = $db->table('bulk_msg_category')->get('bulk_msg_category')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php on line 61
+Line content:                 $exist_privileges = $db->table('student_admission_fields')->get('student_admission_fields')->num_rows();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php on line 85
+Line content:                 $exist_privileges = $db->table('student_profile_fields')->get('student_profile_fields')->num_rows();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 206
+Line content:                         $term = $db->table('exam_term')->get('exam_term')->row()->name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 227
+Line content:             $result = $db->table('exam_mark_distribution')->get('exam_mark_distribution')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 216
+Line content:         if ($db->affectedRows() > 0) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 432
+Line content:             $enc_name = $db->table('staff_documents')->get('staff_documents')->row()->enc_name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 455
+Line content:             $file_name = $db->table('staff_documents')->get('staff_documents')->row()->file_name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 185
+Line content:             $done = $db->affectedRows();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 382
+Line content:             $negMark = $db->table('online_exam')->get('online_exam')->row()->neg_mark;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 529
+Line content:             $onlineExam = $db->table('online_exam')->get('online_exam')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 265
+Line content:             if ($db->affectedRows() > 0) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 665
+Line content:             $result = $db->table('fee_groups')->get('fee_groups')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 875
+Line content:             $feeDetails = $db->table('fee_payment_history')->get('fee_payment_history')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 878
+Line content:                 $sql = "SELECT `transactions`.`account_id`, `transactions_links_details`.`transactions_id` FROM `transactions_links_details` INNER JOIN `transactions` ON `transactions`.`id` = `transactions_links_details`.`transactions_id` WHERE `transactions_links_details`.`payment_id` = " . $db->escape($value);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 879
+Line content:                 $transactionsDetails = $db->query($sql)->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 881
+Line content:                     $sql = "UPDATE `transactions` SET `amount` = `amount` + {$amount}, `cr` = `cr` - {$amount}, `bal` = `bal` - {$amount} WHERE `id` = " . $db->escape($transactionsDetails->transactions_id);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 882
+Line content:                     $db->query($sql);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 883
+Line content:                     $sql = "UPDATE `accounts` SET `balance` = `balance` - {$amount} WHERE `id` = " . $db->escape($transactionsDetails->account_id);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 884
+Line content:                     $db->query($sql);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 282
+Line content:             $getPassword = $db->table('login_credential')->get('login_credential')->row()->password;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 389
+Line content:         $price = $db->table('product')->get('product')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 390
+Line content:         $unit = $db->table('product_unit')->get('product_unit')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 448
+Line content:             $r = $db->table('purchase_bill')->get('purchase_bill')->row()->cid;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 450
+Line content:                 $bill_details = $db->table('purchase_bill_details')->get('purchase_bill_details')->getResult();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 452
+Line content:                     $unit_ratio = $db->table('product')->get('product')->row()->unit_ratio;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 453
+Line content:                     $sql = "UPDATE `product` SET `available_stock` = `available_stock` + " . $value->quantity * $unit_ratio . " WHERE `id` = " . $db->escape($value->product_id);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 454
+Line content:                     $db->query($sql);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 506
+Line content:                             $unit_ratio = $db->table('product')->get('product')->row()->unit_ratio;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 517
+Line content:                             $unit_ratio = $db->table('product')->get('product')->row()->unit_ratio;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 518
+Line content:                             $newunit_ratio = $db->table('product')->get('product')->row()->unit_ratio;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 527
+Line content:                         $unit_ratio = $db->table('product')->get('product')->row()->unit_ratio;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 562
+Line content:             $unit_ratio = $db->table('product')->get('product')->row()->unit_ratio;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 597
+Line content:             $data['getbill'] = $db->table('purchase_bill')->get('purchase_bill')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 620
+Line content:         $due_amount = $db->table('purchase_bill')->get('purchase_bill')->row()->due;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 781
+Line content:         $price = $db->table('product')->get('product')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 782
+Line content:         $unit = $db->table('product_unit')->get('product_unit')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 797
+Line content:         $productlist = $db->table('product')->get('product')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 841
+Line content:             $data['getbill'] = $db->table('sales_bill')->get('sales_bill')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 864
+Line content:         $due_amount = $db->table('sales_bill')->get('sales_bill')->row()->due;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 1089
+Line content:             $result = $db->table($table)->get($table)->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php on line 208
+Line content:         if ($db->affectedRows() > 0) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php on line 121
+Line content:             $enc_name = $db->table('attachments')->get('attachments')->row()->enc_name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php on line 129
+Line content:             if ($db->affectedRows() > 0 && file_exists($file_name)) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php on line 218
+Line content:             $file_name = $db->table('attachments')->get('attachments')->row()->file_name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php on line 64
+Line content:             $getApplication = $db->table('advance_salary')->get('advance_salary')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php on line 65
+Line content:             $getStaff = $db->table('staff')->get('staff')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php on line 106
+Line content:             $getStaff = $db->table('staff')->get('staff')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 220
+Line content:                 $getSubscriptions = $db->table('saas_subscriptions')->get('saas_subscriptions')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 227
+Line content:                     $saasPackage = $db->table('saas_package')->get('saas_package')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 232
+Line content:                     $getPermissions = $db->table('permission_modules')->get('permission_modules')->getResult();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 234
+Line content:                         $get_existPermissions = $db->table('modules_manage')->get('modules_manage');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 287
+Line content:         $result = $db->table('staff')->get('staff')->getResult();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 295
+Line content:         $result = $db->table('enroll')->get('enroll')->getResult();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 305
+Line content:         $getSubscriptions = $db->table('saas_subscriptions')->get('saas_subscriptions')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 333
+Line content:                 $saasPackage = $db->table('saas_package')->get('saas_package')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 786
+Line content:             $logo = $db->table('saas_school_register')->get('saas_school_register')->row()->logo;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 789
+Line content:             if ($db->affectedRows() > 0 && !empty($logo)) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 78
+Line content:         $bulkArray = $db->query($sql)->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 105
+Line content:         $homeworkArray = $db->query($sql)->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php on line 70
+Line content:             $query_language = $db->query("SELECT `id`, `word`, `{$language}` FROM `languages`");
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php on line 158
+Line content:             $lang = $db->table('language_list')->get('language_list')->row()->lang_field;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php on line 215
+Line content:             $isRTL = $db->table('language_list')->get('language_list')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 563
+Line content:             if ($db->affectedRows() > 0) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 566
+Line content:                 $r = $db->table('fee_allocation')->get('fee_allocation')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 572
+Line content:                 $get_field = $db->table('custom_field')->get('custom_field')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 658
+Line content:             $enc_name = $db->table('student_documents')->get('student_documents')->row()->enc_name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 681
+Line content:             $file_name = $db->table('student_documents')->get('student_documents')->row()->file_name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 780
+Line content:             $studentID = $db->table('enroll')->get('enroll')->row()->student_id;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 800
+Line content:             $studentID = $db->table('enroll')->get('enroll')->row()->student_id;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 892
+Line content:                 $get_field = $db->table('custom_field')->get('custom_field')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 943
+Line content:                             $chkID = $db->table('enroll')->get('enroll')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 954
+Line content:                             $chkID = $db->table('parent')->get('parent')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 146
+Line content:             $file_name = $db->table($table)->get($table)->row()->file_name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 200
+Line content:         $query = $db->table('message')->get('message')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 227
+Line content:                 $get_user = $db->table('message')->get('message')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 341
+Line content:         $sql = "SELECT * FROM message WHERE (sender = " . $db->escape($active_user) . " AND fav_sent = 1 AND trash_sent = 0) OR (receiver = " .
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 342
+Line content:                $db->escape($active_user) . " AND fav_inbox = 1 AND trash_inbox = 0) ORDER BY id DESC";
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 343
+Line content:         $messages = $db->query($sql)->getResult();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 358
+Line content:         $sql = "SELECT * FROM message WHERE (sender = " . $db->escape($active_user) . " AND trash_sent = 1) OR (receiver = " .
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 359
+Line content:                $db->escape($active_user) . " AND trash_inbox = 1) ORDER BY id DESC";
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 360
+Line content:         $messages = $db->query($sql)->getResult();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php on line 149
+Line content:                 $exist_privileges = $db->table('staff_privileges')->get('staff_privileges')->num_rows();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php on line 139
+Line content:                 $exist_privileges = $db->table('staff_privileges')->get('staff_privileges')->num_rows();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 689
+Line content:             $result = $db->table('exam_mark_distribution')->get('exam_mark_distribution')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 764
+Line content:                     $q = $db->table('exam_rank')->get('exam_rank');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 191
+Line content:             $r = $db->table('offline_payment_types')->get('offline_payment_types')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php on line 1082
+Line content:             $r = $db->table('saas_offline_payment_types')->get('saas_offline_payment_types')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 133
+Line content:             $photo = $db->table('alumni_students')->get('alumni_students')->row()->photo;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 285
+Line content:             $photo = $db->table('alumni_events')->get('alumni_events')->row()->photo;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php on line 653
+Line content:                 $exist_privileges = $db->table('online_admission_fields')->get('online_admission_fields')->num_rows();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php on line 665
+Line content:                 $exist_privileges = $db->table('online_admission_fields')->get('online_admission_fields')->num_rows();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php on line 166
+Line content:             $r = $db->table('enroll')->get('enroll')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php on line 396
+Line content:             $query = $db->table('transport_assign')->get('transport_assign');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php on line 416
+Line content:             $result = $db->table('transport_vehicle')->get('transport_vehicle')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php on line 436
+Line content:             $result = $db->table('transport_stoppage')->get('transport_stoppage')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 476
+Line content:                 $userID = $db->table('student')->get('student')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 579
+Line content:                 $userID = $db->table('student')->get('student')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 655
+Line content:         $url = $db->table('front_cms_setting')->get('front_cms_setting')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 113
+Line content:         if ($db->affectedRows() > 0) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 332
+Line content:         $q = $db->table('transactions')->get('transactions')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 337
+Line content:             $sql = "UPDATE accounts SET balance = balance + " . $q['amount'] . " WHERE id = " . $db->escape($q['account_id']);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 338
+Line content:             $db->query($sql);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 343
+Line content:             $sql = "UPDATE accounts SET balance = balance - " . $q['amount'] . " WHERE id = " . $db->escape($q['account_id']);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 344
+Line content:             $db->query($sql);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 468
+Line content:             $result = $db->table('voucher_head')->get('voucher_head')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 502
+Line content:                 $file_name = $db->table('transactions')->get('transactions')->row()->attachments;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 518
+Line content:                 $file_name = $db->table('transactions')->get('transactions')->row()->attachments;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php on line 106
+Line content:             $result = $db->table('staff')->get('staff')->getResult();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php on line 117
+Line content:                 $db->query('USE ' . $this->db->database . ';');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php on line 121
+Line content:                         $db->query($sql);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/School_settings.php on line 167
+Line content:         if ($db->affectedRows() > 0) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/School_settings.php on line 755
+Line content:             $agent_image = $db->table('whatsapp_agent')->get('whatsapp_agent')->row()->agent_image;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php on line 54
+Line content:                 $exist_privileges = $db->table('modules_manage')->get('modules_manage')->num_rows();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 65
+Line content:             $getApplication = $db->table('leave_application')->get('leave_application')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 67
+Line content:                 $getApplicant = $db->table('student')->get('student')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 69
+Line content:                 $getApplicant = $db->table('staff')->get('staff')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 213
+Line content:                 $total_spent = $db->table('leave_application')->get('leave_application')->row()->total_days;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 364
+Line content:             $query = $db->table('leave_category')->get('leave_category');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 212
+Line content:                 $total_spent = $db->table('leave_application')->get('leave_application')->row()->total_days;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 262
+Line content:             $file_name = $db->table('attachments')->get('attachments')->row()->file_name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 375
+Line content:         $query = $db->table('book')->get('book')->row_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 798
+Line content:             $getRow = $db->table('enroll')->get('enroll')->row();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Classes.php on line 126
+Line content:             if ($db->affectedRows() > 0) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php on line 151
+Line content:                                         $db->query('USE ' . $this->db->database . ';');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php on line 155
+Line content:                                                 $db->query($sql);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php on line 326
+Line content:             $result = $db->table('hostel_category')->get('hostel_category')->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php on line 346
+Line content:             $rooms = $db->table('hostel_room')->get('hostel_room')->result_array();
+

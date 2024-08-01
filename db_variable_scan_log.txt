@@ -1,0 +1,108 @@
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 17
+Line content:         $builder = $db->table('custom_field');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 102
+Line content:         $builder = $db->table('custom_field');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 115
+Line content:         $builder = $db->table('custom_fields_values');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 143
+Line content:         $builder = $db->table('custom_field');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 158
+Line content:         $builder = $db->table('custom_field');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 172
+Line content:         $builder = $db->table('custom_fields_values');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 192
+Line content:             $builder = $db->table('custom_field');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 201
+Line content:             $builder = $db->table('custom_field');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 271
+Line content:         $builder = $db->table('custom_fields_online_values');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 299
+Line content:         $builder = $db->table('custom_field');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 314
+Line content:         $builder = $db->table('custom_fields_online_values');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/custom_fields_helper.php on line 333
+Line content:         $builder = $db->table('custom_field');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 17
+Line content:     $query = $db->query("SELECT `english`, `$set_lang` FROM `languages` WHERE `word` = ?", [$word]);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 27
+Line content:         $db->table('languages')->insert($data);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 47
+Line content:     $query = $db->query($sql, [$branchID, $prefix]);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 69
+Line content:     $row = $db->query($sql, [$branchID])->getRow();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 78
+Line content:             $total_student = $db->table('enroll')
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 85
+Line content:             $db->select('IFNULL(COUNT(staff.id), 0) AS snumber')
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 91
+Line content:                 $db->where('login_credential.role', 3);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 93
+Line content:                 $db->whereNotIn('login_credential.role', [1, 3, 6, 7]);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 96
+Line content:             $total_staff = $db->get()->getRow()->snumber;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 100
+Line content:             $total_parents = $db->table('parent')
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 111
+Line content:     return $db->table('saas_subscriptions')->where('school_id', $schoolID)->countAllResults() > 0;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 139
+Line content:     return $db->query($sql, [$id])->getResult();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 156
+Line content:     $result = $db->table('global_settings')->select($name)->where('id', 1)->get()->getRow();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 225
+Line content:     return $db->table('roles')->select('name')->where('id', $roleID)->get()->getRow()->name;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 255
+Line content:     return $db->table($table)->select($field)->where('id', $type_id)->get()->getRowArray()[$field];
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 316
+Line content:     $query = $db->table($table)->select('hash')->where('id', $id)->get();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 397
+Line content:     $builder = $db->table('front_cms_menu')
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Helpers/general_helper.php on line 523
+Line content:     return $db->table('enroll')->select('student_id')->where('id', $enroll_id)->get()->getRow()->student_id;
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Textlocal.php on line 17
+Line content:         $query = $db->table('sms_credential')
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Twilio.php on line 25
+Line content:         $query = $db->table('sms_credential')
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/TapPayments.php on line 27
+Line content:         $query = $db->table('payment_config')
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Msg91.php on line 17
+Line content:         $msg91 = $db->table('sms_credential')
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Config/Routes.php on line 55
+Line content: if ($db->tableExists('custom_domain')) {
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Config/Routes.php on line 56
+Line content:     $builder = $db->table('custom_domain');
+

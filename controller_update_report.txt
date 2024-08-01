@@ -1,0 +1,996 @@
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php on line 6
+Original line: use App\Models\Subject;
+Fixed line: use App\Models\SubjectModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php on line 7
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php on line 23
+Original line:      * @var App\Models\Homework
+Fixed line:      * @var App\Models\HomeworkModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php on line 27
+Original line:      * @var App\Models\Subject
+Fixed line:      * @var App\Models\SubjectModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php on line 31
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 6
+Original line: use App\Models\CardManage;
+Fixed line: use App\Models\CardManageModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 7
+Original line: use App\Models\Employee;
+Fixed line: use App\Models\EmployeeModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 8
+Original line: use App\Models\Timetable;
+Fixed line: use App\Models\TimetableModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 24
+Original line:      * @var App\Models\CardManage
+Fixed line:      * @var App\Models\CardManageModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 29
+Original line:      * @var App\Models\Employee
+Fixed line:      * @var App\Models\EmployeeModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 33
+Original line:      * @var App\Models\Timetable
+Fixed line:      * @var App\Models\TimetableModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php on line 22
+Original line:      * @var App\Models\Ajax
+Fixed line:      * @var App\Models\AjaxModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 6
+Original line: use App\Models\OnlineAdmission;
+Fixed line: use App\Models\OnlineAdmissionModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 7
+Original line: use App\Models\StudentFields;
+Fixed line: use App\Models\StudentFieldsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 8
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 9
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 28
+Original line:      * @var App\Models\OnlineAdmission
+Fixed line:      * @var App\Models\OnlineAdmissionModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 32
+Original line:      * @var App\Models\StudentFields
+Fixed line:      * @var App\Models\StudentFieldsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 36
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 40
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 6
+Original line: use App\Models\Attendance;
+Fixed line: use App\Models\AttendanceModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 7
+Original line: use App\Models\QrcodeAttendance;
+Fixed line: use App\Models\QrcodeAttendanceModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 8
+Original line: use App\Models\Frontend;
+Fixed line: use App\Models\FrontendModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 9
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 26
+Original line:      * @var App\Models\Attendance
+Fixed line:      * @var App\Models\AttendanceModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 30
+Original line:      * @var App\Models\QrcodeAttendance
+Fixed line:      * @var App\Models\QrcodeAttendanceModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 34
+Original line:      * @var App\Models\Frontend
+Fixed line:      * @var App\Models\FrontendModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 38
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php on line 6
+Original line: use App\Models\OfflinePayments;
+Fixed line: use App\Models\OfflinePaymentsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php on line 7
+Original line: use App\Models\Fees;
+Fixed line: use App\Models\FeesModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php on line 23
+Original line:      * @var App\Models\OfflinePayments
+Fixed line:      * @var App\Models\OfflinePaymentsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php on line 27
+Original line:      * @var App\Models\Fees
+Fixed line:      * @var App\Models\FeesModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Certificate.php on line 6
+Original line: use App\Models\Employee;
+Fixed line: use App\Models\EmployeeModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Certificate.php on line 19
+Original line:      * @var App\Models\Certificate
+Fixed line:      * @var App\Models\CertificateModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Certificate.php on line 24
+Original line:      * @var App\Models\Employee
+Fixed line:      * @var App\Models\EmployeeModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php on line 21
+Original line:      * @var App\Models\Library
+Fixed line:      * @var App\Models\LibraryModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Multiclass.php on line 18
+Original line:      * @var App\Models\Multiclass
+Fixed line:      * @var App\Models\MulticlassModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Admissionpayment.php on line 5
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Admissionpayment.php on line 19
+Original line:      * @var App\Models\Admissionpayment
+Fixed line:      * @var App\Models\AdmissionpaymentModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Admissionpayment.php on line 24
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sendsmsmail.php on line 21
+Original line:      * @var App\Models\Sendsmsmail
+Fixed line:      * @var App\Models\SendsmsmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php on line 6
+Original line: use App\Models\StudentFields;
+Fixed line: use App\Models\StudentFieldsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php on line 23
+Original line:      * @var App\Models\StudentFields
+Fixed line:      * @var App\Models\StudentFieldsModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 6
+Original line: use App\Models\ExamProgress;
+Fixed line: use App\Models\ExamProgressModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 7
+Original line: use App\Models\MarksheetTemplate;
+Fixed line: use App\Models\MarksheetTemplateModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 8
+Original line: use App\Models\Subject;
+Fixed line: use App\Models\SubjectModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 9
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 10
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 27
+Original line:      * @var App\Models\ExamProgress
+Fixed line:      * @var App\Models\ExamProgressModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 31
+Original line:      * @var App\Models\MarksheetTemplate
+Fixed line:      * @var App\Models\MarksheetTemplateModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 35
+Original line:      * @var App\Models\Subject
+Fixed line:      * @var App\Models\SubjectModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 39
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 43
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 6
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 7
+Original line: use App\Models\Crud;
+Fixed line: use App\Models\CrudModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 26
+Original line:      * @var App\Models\Employee
+Fixed line:      * @var App\Models\EmployeeModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 30
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 34
+Original line:      * @var App\Models\Crud
+Fixed line:      * @var App\Models\CrudModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 6
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 7
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 8
+Original line: use App\Models\Subject;
+Fixed line: use App\Models\SubjectModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 26
+Original line:      * @var App\Models\Onlineexam
+Fixed line:      * @var App\Models\OnlineexamModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 30
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 34
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 38
+Original line:      * @var App\Models\Subject
+Fixed line:      * @var App\Models\SubjectModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 6
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 21
+Original line:      * @var App\Models\Fees
+Fixed line:      * @var App\Models\FeesModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 25
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 6
+Original line: use App\Models\Employee;
+Fixed line: use App\Models\EmployeeModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 7
+Original line: use App\Models\Student;
+Fixed line: use App\Models\StudentModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 8
+Original line: use App\Models\Fees;
+Fixed line: use App\Models\FeesModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 9
+Original line: use App\Models\Parents;
+Fixed line: use App\Models\ParentsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 10
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 11
+Original line: use App\Models\StudentFields;
+Fixed line: use App\Models\StudentFieldsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 27
+Original line:      * @var App\Models\Employee
+Fixed line:      * @var App\Models\EmployeeModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 31
+Original line:      * @var App\Models\Student
+Fixed line:      * @var App\Models\StudentModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 35
+Original line:      * @var App\Models\Fees
+Fixed line:      * @var App\Models\FeesModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 39
+Original line:      * @var App\Models\Parents
+Fixed line:      * @var App\Models\ParentsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 43
+Original line:      * @var App\Models\Profile
+Fixed line:      * @var App\Models\ProfileModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 47
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 51
+Original line:      * @var App\Models\StudentFields
+Fixed line:      * @var App\Models\StudentFieldsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 20
+Original line:      * @var App\Models\Inventory
+Fixed line:      * @var App\Models\InventoryModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Award.php on line 6
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Award.php on line 19
+Original line:      * @var App\Models\Award
+Fixed line:      * @var App\Models\AwardModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Award.php on line 23
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php on line 6
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php on line 23
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php on line 27
+Original line:      * @var App\Models\Parents
+Fixed line:      * @var App\Models\ParentsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php on line 24
+Original line:      * @var App\Models\Attachments
+Fixed line:      * @var App\Models\AttachmentsModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php on line 6
+Original line: use App\Models\Advancesalary;
+Fixed line: use App\Models\AdvancesalaryModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php on line 7
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php on line 25
+Original line:      * @var App\Models\Advancesalary
+Fixed line:      * @var App\Models\AdvancesalaryModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php on line 29
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 6
+Original line: use App\Models\SaasEmail;
+Fixed line: use App\Models\SaasEmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 22
+Original line:      * @var App\Models\Saas
+Fixed line:      * @var App\Models\SaasModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 26
+Original line:      * @var App\Models\SaasEmail
+Fixed line:      * @var App\Models\SaasEmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_domain.php on line 6
+Original line: use App\Models\CustomDomain;
+Fixed line: use App\Models\CustomDomainModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_domain.php on line 19
+Original line:      * @var App\Models\CustomDomain
+Fixed line:      * @var App\Models\CustomDomainModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 6
+Original line: use App\Models\Fees;
+Fixed line: use App\Models\FeesModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 7
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 8
+Original line: use App\Models\Sendsmsmail;
+Fixed line: use App\Models\SendsmsmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 25
+Original line:      * @var App\Models\Fees
+Fixed line:      * @var App\Models\FeesModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 29
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 33
+Original line:      * @var App\Models\Sendsmsmail
+Fixed line:      * @var App\Models\SendsmsmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 6
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 7
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 8
+Original line: use App\Models\StudentFields;
+Fixed line: use App\Models\StudentFieldsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 9
+Original line: use App\Models\Fees;
+Fixed line: use App\Models\FeesModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 10
+Original line: use App\Models\Exam;
+Fixed line: use App\Models\ExamModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 27
+Original line:      * @var App\Models\Student
+Fixed line:      * @var App\Models\StudentModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 31
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 35
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 39
+Original line:      * @var App\Models\StudentFields
+Fixed line:      * @var App\Models\StudentFieldsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 54
+Original line:      * @var App\Models\Fees
+Fixed line:      * @var App\Models\FeesModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 58
+Original line:      * @var App\Models\Exam
+Fixed line:      * @var App\Models\ExamModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Timetable.php on line 18
+Original line:      * @var App\Models\Timetable
+Fixed line:      * @var App\Models\TimetableModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 20
+Original line:      * @var App\Models\Communication
+Fixed line:      * @var App\Models\CommunicationModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php on line 6
+Original line: use App\Models\Role;
+Fixed line: use App\Models\RoleModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php on line 13
+Original line:      * @var App\Models\Role
+Fixed line:      * @var App\Models\RoleModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Subscription.php on line 6
+Original line: use App\Models\Saas;
+Fixed line: use App\Models\SaasModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Subscription.php on line 19
+Original line:      * @var App\Models\Saas
+Fixed line:      * @var App\Models\SaasModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Subscription.php on line 23
+Original line:      * @var App\Models\Subscription
+Fixed line:      * @var App\Models\SubscriptionModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Subject.php on line 18
+Original line:      * @var App\Models\Subject
+Fixed line:      * @var App\Models\SubjectModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php on line 20
+Original line:      * @var App\Models\Role
+Fixed line:      * @var App\Models\RoleModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Reception.php on line 18
+Original line:      * @var App\Models\Reception
+Fixed line:      * @var App\Models\ReceptionModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 6
+Original line: use App\Models\Subject;
+Fixed line: use App\Models\SubjectModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 7
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 8
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 9
+Original line: use App\Models\MarksheetTemplate;
+Fixed line: use App\Models\MarksheetTemplateModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 10
+Original line: use App\Models\ExamProgress;
+Fixed line: use App\Models\ExamProgressModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 27
+Original line:      * @var App\Models\Exam
+Fixed line:      * @var App\Models\ExamModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 31
+Original line:      * @var App\Models\Subject
+Fixed line:      * @var App\Models\SubjectModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 35
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 39
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 43
+Original line:      * @var App\Models\MarksheetTemplate
+Fixed line:      * @var App\Models\MarksheetTemplateModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 47
+Original line:      * @var App\Models\ExamProgress
+Fixed line:      * @var App\Models\ExamProgressModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_website.php on line 6
+Original line: use App\Models\Saas;
+Fixed line: use App\Models\SaasModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_website.php on line 7
+Original line: use App\Models\SaasEmail;
+Fixed line: use App\Models\SaasEmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_website.php on line 20
+Original line:      * @var App\Models\Saas
+Fixed line:      * @var App\Models\SaasModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_website.php on line 24
+Original line:      * @var App\Models\SaasEmail
+Fixed line:      * @var App\Models\SaasEmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/User_login_log.php on line 6
+Original line: use App\Models\UserLoginLog;
+Fixed line: use App\Models\UserLoginLogModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/User_login_log.php on line 19
+Original line:      * @var App\Models\UserLoginLog
+Fixed line:      * @var App\Models\UserLoginLogModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 6
+Original line: use App\Models\Saas;
+Fixed line: use App\Models\SaasModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 7
+Original line: use App\Models\SaasEmail;
+Fixed line: use App\Models\SaasEmailModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 8
+Original line: use App\Models\SaasOfflinePayments;
+Fixed line: use App\Models\SaasOfflinePaymentsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 24
+Original line:      * @var App\Models\Saas
+Fixed line:      * @var App\Models\SaasModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 28
+Original line:      * @var App\Models\SaasEmail
+Fixed line:      * @var App\Models\SaasEmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 32
+Original line:      * @var App\Models\SaasOfflinePayments
+Fixed line:      * @var App\Models\SaasOfflinePaymentsModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php on line 6
+Original line: use App\Models\Saas;
+Fixed line: use App\Models\SaasModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php on line 7
+Original line: use App\Models\SaasEmail;
+Fixed line: use App\Models\SaasEmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php on line 23
+Original line:      * @var App\Models\Saas
+Fixed line:      * @var App\Models\SaasModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php on line 28
+Original line:      * @var App\Models\SaasEmail
+Fixed line:      * @var App\Models\SaasEmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 6
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 7
+Original line: use App\Models\Dashboard;
+Fixed line: use App\Models\DashboardModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 24
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 28
+Original line:      * @var App\Models\Alumni
+Fixed line:      * @var App\Models\AlumniModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 32
+Original line:      * @var App\Models\Dashboard
+Fixed line:      * @var App\Models\DashboardModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_field.php on line 6
+Original line: use App\Models\CustomField;
+Fixed line: use App\Models\CustomFieldModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_field.php on line 19
+Original line:      * @var App\Models\CustomField
+Fixed line:      * @var App\Models\CustomFieldModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qr_code_settings.php on line 6
+Original line: use App\Models\School;
+Fixed line: use App\Models\SchoolModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qr_code_settings.php on line 19
+Original line:      * @var App\Models\School
+Fixed line:      * @var App\Models\SchoolModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php on line 6
+Original line: use App\Models\Fees;
+Fixed line: use App\Models\FeesModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php on line 22
+Original line:      * @var App\Models\Fees
+Fixed line:      * @var App\Models\FeesModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php on line 23
+Original line:      * @var App\Models\Transport
+Fixed line:      * @var App\Models\TransportModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 6
+Original line: use App\Models\StudentFields;
+Fixed line: use App\Models\StudentFieldsModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 7
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 8
+Original line: use App\Models\Testimonial;
+Fixed line: use App\Models\TestimonialModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 9
+Original line: use App\Models\Gallery;
+Fixed line: use App\Models\GalleryModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 10
+Original line: use App\Models\Admissionpayment;
+Fixed line: use App\Models\AdmissionpaymentModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 11
+Original line: use App\Models\CardManage;
+Fixed line: use App\Models\CardManageModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 12
+Original line: use App\Models\Timetable;
+Fixed line: use App\Models\TimetableModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 13
+Original line: use App\Models\Exam;
+Fixed line: use App\Models\ExamModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 14
+Original line: use App\Models\Certificate;
+Fixed line: use App\Models\CertificateModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 33
+Original line:      * @var App\Models\StudentFields
+Fixed line:      * @var App\Models\StudentFieldsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 37
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 41
+Original line:      * @var App\Models\Testimonial
+Fixed line:      * @var App\Models\TestimonialModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 45
+Original line:      * @var App\Models\Gallery
+Fixed line:      * @var App\Models\GalleryModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 54
+Original line:      * @var App\Models\Admissionpayment
+Fixed line:      * @var App\Models\AdmissionpaymentModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 64
+Original line:      * @var App\Models\CardManage
+Fixed line:      * @var App\Models\CardManageModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 68
+Original line:      * @var App\Models\Timetable
+Fixed line:      * @var App\Models\TimetableModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 72
+Original line:      * @var App\Models\Exam
+Fixed line:      * @var App\Models\ExamModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 77
+Original line:      * @var App\Models\Certificate
+Fixed line:      * @var App\Models\CertificateModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 12
+Original line:      * @var App\Models\Accounting
+Fixed line:      * @var App\Models\AccountingModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 16
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php on line 21
+Original line:      * @var App\Models\Branch
+Fixed line:      * @var App\Models\BranchModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 5
+Original line: use App\Models\Subject;
+Fixed line: use App\Models\SubjectModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 6
+Original line: use App\Models\Attendance;
+Fixed line: use App\Models\AttendanceModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 7
+Original line: use App\Models\AttendancePeriod;
+Fixed line: use App\Models\AttendancePeriodModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 8
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 22
+Original line:      * @var App\Models\Subject
+Fixed line:      * @var App\Models\SubjectModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 26
+Original line:      * @var App\Models\Attendance
+Fixed line:      * @var App\Models\AttendanceModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 30
+Original line:      * @var App\Models\AttendancePeriod
+Fixed line:      * @var App\Models\AttendancePeriodModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 34
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/School_settings.php on line 6
+Original line: use App\Models\School;
+Fixed line: use App\Models\SchoolModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/School_settings.php on line 22
+Original line:      * @var App\Models\School
+Fixed line:      * @var App\Models\SchoolModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php on line 6
+Original line: use App\Models\Module;
+Fixed line: use App\Models\ModuleModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php on line 22
+Original line:      * @var App\Models\Module
+Fixed line:      * @var App\Models\ModuleModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sections.php on line 6
+Original line: use App\Models\Application;
+Fixed line: use App\Models\ApplicationModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 6
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 26
+Original line:      * @var App\Models\Leave
+Fixed line:      * @var App\Models\LeaveModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 30
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php on line 6
+Original line: use App\Models\Userrole;
+Fixed line: use App\Models\UserroleModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php on line 7
+Original line: use App\Models\Fees;
+Fixed line: use App\Models\FeesModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php on line 20
+Original line:      * @var App\Models\Feespayment
+Fixed line:      * @var App\Models\FeespaymentModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php on line 24
+Original line:      * @var App\Models\Userrole
+Fixed line:      * @var App\Models\UserroleModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php on line 28
+Original line:      * @var App\Models\Fees
+Fixed line:      * @var App\Models\FeesModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 6
+Original line: use App\Models\Leave;
+Fixed line: use App\Models\LeaveModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 7
+Original line: use App\Models\Fees;
+Fixed line: use App\Models\FeesModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 8
+Original line: use App\Models\Exam;
+Fixed line: use App\Models\ExamModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 9
+Original line: use App\Models\Attendance;
+Fixed line: use App\Models\AttendanceModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 10
+Original line: use App\Models\Onlineexam;
+Fixed line: use App\Models\OnlineexamModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 11
+Original line: use App\Models\AttendancePeriod;
+Fixed line: use App\Models\AttendancePeriodModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 12
+Original line: use App\Models\Subject;
+Fixed line: use App\Models\SubjectModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 31
+Original line:      * @var App\Models\Userrole
+Fixed line:      * @var App\Models\UserroleModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 35
+Original line:      * @var App\Models\Leave
+Fixed line:      * @var App\Models\LeaveModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 39
+Original line:      * @var App\Models\Fees
+Fixed line:      * @var App\Models\FeesModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 43
+Original line:      * @var App\Models\Exam
+Fixed line:      * @var App\Models\ExamModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 53
+Original line:      * @var App\Models\Attendance
+Fixed line:      * @var App\Models\AttendanceModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 58
+Original line:      * @var App\Models\Onlineexam
+Fixed line:      * @var App\Models\OnlineexamModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 67
+Original line:      * @var App\Models\AttendancePeriod
+Fixed line:      * @var App\Models\AttendancePeriodModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 71
+Original line:      * @var App\Models\Subject
+Fixed line:      * @var App\Models\SubjectModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_update.php on line 6
+Original line: use App\Models\SystemUpdate;
+Fixed line: use App\Models\SystemUpdateModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_update.php on line 19
+Original line:      * @var App\Models\SystemUpdate
+Fixed line:      * @var App\Models\SystemUpdateModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php on line 6
+Original line: use App\Models\Subject;
+Fixed line: use App\Models\SubjectModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php on line 7
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php on line 20
+Original line:      * @var App\Models\Attendance
+Fixed line:      * @var App\Models\AttendanceModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php on line 24
+Original line:      * @var App\Models\Subject
+Fixed line:      * @var App\Models\SubjectModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php on line 28
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Event.php on line 18
+Original line:      * @var App\Models\Event
+Fixed line:      * @var App\Models\EventModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam_payment.php on line 6
+Original line: use App\Models\Userrole;
+Fixed line: use App\Models\UserroleModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam_payment.php on line 7
+Original line: use App\Models\Fees;
+Fixed line: use App\Models\FeesModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam_payment.php on line 20
+Original line:      * @var App\Models\Userrole
+Fixed line:      * @var App\Models\UserroleModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam_payment.php on line 24
+Original line:      * @var App\Models\Fees
+Fixed line:      * @var App\Models\FeesModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Birthday.php on line 6
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Birthday.php on line 19
+Original line:      * @var App\Models\Birthday
+Fixed line:      * @var App\Models\BirthdayModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Birthday.php on line 23
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Marksheet_template.php on line 6
+Original line: use App\Models\MarksheetTemplate;
+Fixed line: use App\Models\MarksheetTemplateModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Marksheet_template.php on line 19
+Original line:      * @var App\Models\MarksheetTemplate
+Fixed line:      * @var App\Models\MarksheetTemplateModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Payroll.php on line 6
+Original line: use App\Models\Email;
+Fixed line: use App\Models\EmailModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Payroll.php on line 19
+Original line:      * @var App\Models\Payroll
+Fixed line:      * @var App\Models\PayrollModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Payroll.php on line 23
+Original line:      * @var App\Models\Email
+Fixed line:      * @var App\Models\EmailModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Live_class.php on line 6
+Original line: use App\Models\LiveClass;
+Fixed line: use App\Models\LiveClassModel;
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Live_class.php on line 7
+Original line: use App\Models\Sms;
+Fixed line: use App\Models\SmsModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Live_class.php on line 20
+Original line:      * @var App\Models\LiveClass
+Fixed line:      * @var App\Models\LiveClassModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Live_class.php on line 24
+Original line:      * @var App\Models\Sms
+Fixed line:      * @var App\Models\SmsModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Classes.php on line 20
+Original line:      * @var App\Models\Classes
+Fixed line:      * @var App\Models\ClassesModel
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php on line 22
+Original line:      * @var App\Models\Addons
+Fixed line:      * @var App\Models\AddonsModel
+
+Use statement model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php on line 6
+Original line: use App\Models\Hostel;
+Fixed line: use App\Models\HostelModel;
+
+DocBlock model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php on line 23
+Original line:      * @var App\Models\Hostel
+Fixed line:      * @var App\Models\HostelModel
+

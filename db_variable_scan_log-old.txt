@@ -1,0 +1,39 @@
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Clickatell.php
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/RazorpayPayment.php
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/CustomSms.php
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/subscription/list.php
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/communication/message_important.php
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/communication/message_trash.php
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Clickatell.php on line 36
+Line content:         $clickatell = $db->table('sms_credential')->where(['sms_api_id' => 2, 'branch_id' => $branchID])->get()->getRowArray();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/RazorpayPayment.php on line 23
+Line content:         $query = $db->table('payment_config')->select('razorpay_key_id, razorpay_key_secret')->where('branch_id', $branchID)->get();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/CustomSms.php on line 17
+Line content:         $builder = $db->table('sms_credential');
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/subscription/list.php on line 161
+Line content: 					$sql .= " AND `period_type` = " . $db->escape($getType);
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/subscription/list.php on line 162
+Line content: 				$packages = $db->query($sql)->result_array();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/communication/message_important.php on line 31
+Line content: 					$sql = "SELECT * FROM message WHERE (sender = " . $db->escape($active_user) . " AND fav_sent = 1 AND trash_sent = 0) OR (reciever = " .
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/communication/message_important.php on line 32
+Line content: 					$db->escape($active_user) . " AND fav_inbox = 1 AND trash_inbox = 0) ORDER BY id DESC";
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/communication/message_important.php on line 33
+Line content: 					$messages = $db->query($sql)->result();
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/communication/message_trash.php on line 30
+Line content: 					$sql = "SELECT * FROM message WHERE (sender = " . $db->escape($active_user) . " AND trash_sent = 1) OR (reciever = " .
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/communication/message_trash.php on line 31
+Line content: 					$db->escape($active_user) . " AND trash_inbox = 1) ORDER BY id DESC";
+
+Potential undefined $db variable in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Views/communication/message_trash.php on line 32
+Line content: 					$messages = $db->query($sql)->result();
+

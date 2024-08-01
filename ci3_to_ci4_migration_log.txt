@@ -1,0 +1,1297 @@
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 10
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 7
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Homework;
+use App\Models\Subject;
+use App\Models\Sms;
+
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 20
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 10
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\CardManage;
+use App\Models\Employee;
+use App\Models\Timetable;
+
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Ajax;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 1
+Pattern: /\$this->db->where\((.*?)\)->get\((.*?)\)->row_array\(\);/
+Replacement: $this->db->table(\2)->where(\1)->get()->getRowArray();
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 48
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\OnlineAdmission;
+use App\Models\StudentFields;
+use App\Models\Email;
+use App\Models\Sms;
+
+Count: 4
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 9
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 4
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Attendance;
+use App\Models\QrcodeAttendance;
+use App\Models\Frontend;
+use App\Models\Sms;
+
+Count: 4
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 4
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\OfflinePayments;
+use App\Models\Fees;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Certificate.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 10
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 6
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Certificate;
+use App\Models\Employee;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 21
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 6
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Library;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Multiclass.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Multiclass;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Admissionpayment.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 7
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 9
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Admissionpayment;
+use App\Models\Email;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sendsmsmail.php:
+Pattern: /\$this->db->where\((.*?)\)->get\((.*?)\)->row_array\(\);/
+Replacement: $this->db->table(\2)->where(\1)->get()->getRowArray();
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 19
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 6
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Sendsmsmail;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\StudentFields;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 6
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 4
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\ExamProgress;
+use App\Models\MarksheetTemplate;
+use App\Models\Subject;
+use App\Models\Sms;
+use App\Models\Email;
+
+Count: 5
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Errors.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 37
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 6
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 5
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Employee;
+use App\Models\Email;
+use App\Models\Crud;
+
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 44
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 13
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 5
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Onlineexam;
+use App\Models\Email;
+use App\Models\Sms;
+use App\Models\Subject;
+
+Count: 4
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 32
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 23
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Fees;
+use App\Models\Email;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 48
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Employee;
+use App\Models\Student;
+use App\Models\Fees;
+use App\Models\Parents;
+use App\Models\Profile;
+use App\Models\Email;
+use App\Models\StudentFields;
+
+Count: 7
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 68
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 22
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 5
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Inventory;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Award.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 8
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Award;
+use App\Models\Email;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 17
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 4
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Email;
+use App\Models\Parents;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:
+Pattern: /\$this->db->where\((.*?)\)->get\((.*?)\)->row_array\(\);/
+Replacement: $this->db->table(\2)->where(\1)->get()->getRowArray();
+Count: 2
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 9
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 3
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 5
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Attachments;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 7
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 3
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Advancesalary;
+use App\Models\Email;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php:
+Pattern: /\$this->db->where\((.*?)\)->get\((.*?)\)->row_array\(\);/
+Replacement: $this->db->table(\2)->where(\1)->get()->getRowArray();
+Count: 3
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 67
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 20
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Saas;
+use App\Models\SaasEmail;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_domain.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 5
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\CustomDomain;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Fees;
+use App\Models\Sms;
+use App\Models\Sendsmsmail;
+
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 71
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 12
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 5
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Student;
+use App\Models\Email;
+use App\Models\Sms;
+use App\Models\StudentFields;
+use App\Models\Fees;
+use App\Models\Exam;
+
+Count: 6
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Timetable.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 11
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 7
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Timetable;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 8
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Communication;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 3
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Role;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Subscription.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 10
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 11
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Saas;
+use App\Models\Subscription;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Subject.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 14
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 4
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Subject;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Popupbox.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 3
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Role;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Reception.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 50
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 13
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Reception;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 26
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 14
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Exam;
+use App\Models\Subject;
+use App\Models\Sms;
+use App\Models\Email;
+use App\Models\MarksheetTemplate;
+use App\Models\ExamProgress;
+
+Count: 6
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_website.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 27
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 5
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 5
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Saas;
+use App\Models\SaasEmail;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Authentication.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/User_login_log.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\UserLoginLog;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 1
+Pattern: /\$this->db->where\((.*?)\)->get\((.*?)\)->row_array\(\);/
+Replacement: $this->db->table(\2)->where(\1)->get()->getRowArray();
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 3
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Saas;
+use App\Models\SaasEmail;
+use App\Models\SaasOfflinePayments;
+
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 12
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 9
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Saas;
+use App\Models\SaasEmail;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 13
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Sms;
+use App\Models\Alumni;
+use App\Models\Dashboard;
+
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_field.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 7
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\CustomField;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qr_code_settings.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\School;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Menu.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 77
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 12
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Setting.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 20
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Gallery.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 12
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 4
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/News.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 6
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Services.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Testimonial.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 6
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Features.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 5
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Content.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 7
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Slider.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 9
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Faq.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Fees;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 18
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 9
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Transport;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Dashboard.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 26
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 37
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\StudentFields;
+use App\Models\Email;
+use App\Models\Testimonial;
+use App\Models\Gallery;
+use App\Models\Admissionpayment;
+use App\Models\CardManage;
+use App\Models\Timetable;
+use App\Models\Exam;
+use App\Models\Certificate;
+
+Count: 9
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 2
+Pattern: /\$this->db->where\((.*?)\)->get\((.*?)\)->row_array\(\);/
+Replacement: $this->db->table(\2)->where(\1)->get()->getRowArray();
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 17
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 14
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Accounting;
+use App\Models\Email;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 12
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Branch;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 10
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 4
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Subject;
+use App\Models\Attendance;
+use App\Models\AttendancePeriod;
+use App\Models\Sms;
+
+Count: 4
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/School_settings.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 59
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 12
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\School;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Module;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sections.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 1
+Pattern: /\$this->db->where\((.*?)\)->get\((.*?)\)->row_array\(\);/
+Replacement: $this->db->table(\2)->where(\1)->get()->getRowArray();
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 13
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 6
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 8
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Leave;
+use App\Models\Email;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 14
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 8
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Feespayment;
+use App\Models\Userrole;
+use App\Models\Fees;
+
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Reception_config.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 5
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:
+Pattern: /\$this->load->helper\((.*?)\);/
+Replacement: helper(\1);
+Count: 1
+Pattern: /\$this->db->where\((.*?)\)->get\((.*?)\)->row_array\(\);/
+Replacement: $this->db->table(\2)->where(\1)->get()->getRowArray();
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 14
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 25
+Pattern: /force_download\((.*?)\);/
+Replacement: return $this->response->download(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 10
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Userrole;
+use App\Models\Leave;
+use App\Models\Fees;
+use App\Models\Exam;
+use App\Models\Attendance;
+use App\Models\Onlineexam;
+use App\Models\AttendancePeriod;
+use App\Models\Subject;
+
+Count: 8
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_update.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\SystemUpdate;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 19
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 8
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Attendance;
+use App\Models\Subject;
+use App\Models\Sms;
+
+Count: 3
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Event.php:
+Pattern: /\$this->db->where\((.*?)\)->get\((.*?)\)->row_array\(\);/
+Replacement: $this->db->table(\2)->where(\1)->get()->getRowArray();
+Count: 1
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 18
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 3
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Event;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam_payment.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 12
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 8
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Userrole;
+use App\Models\Fees;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Birthday.php:
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Birthday;
+use App\Models\Sms;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Marksheet_template.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 15
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 3
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\MarksheetTemplate;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Payroll.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 3
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 8
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Payroll;
+use App\Models\Email;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Settings.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 36
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Live_class.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 13
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 6
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\LiveClass;
+use App\Models\Sms;
+
+Count: 2
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Classes.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 8
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 4
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Classes;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 4
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 2
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Addons;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Install.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 10
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 13
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 6
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /<\?php\s+/
+Replacement: <?php
+use App\Models\Hostel;
+
+Count: 1
+
+Changes in /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sessions.php:
+Pattern: /\$this->form_validation->set_rules\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 2
+Pattern: /\$this->load->view\((.*?)\);/
+Replacement: echo view(\1);
+Count: 1
+Pattern: /\$this->form_validation->set_message\((.*?)\);/
+Replacement: $this->validation->setRule(\1);
+Count: 1
+

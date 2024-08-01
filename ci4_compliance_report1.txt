@@ -1,0 +1,1037 @@
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php on line 48
+Original line:         $this->homework = new \App\Models\Homework();
+Fixed line:         $this->homework = new \App\Models\HomeworkModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php on line 49
+Original line:         $this->subject = new \App\Models\Subject();
+Fixed line:         $this->subject = new \App\Models\SubjectModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php on line 50
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 45
+Original line:         $this->cardManage = new \App\Models\CardManage();
+Fixed line:         $this->cardManage = new \App\Models\CardManageModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 47
+Original line:         $this->employee = new \App\Models\Employee();
+Fixed line:         $this->employee = new \App\Models\EmployeeModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php on line 48
+Original line:         $this->timetable = new \App\Models\Timetable();
+Fixed line:         $this->timetable = new \App\Models\TimetableModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php on line 43
+Original line:         $this->ajax = new \App\Models\Ajax();
+Fixed line:         $this->ajax = new \App\Models\AjaxModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 68
+Original line:         $this->onlineAdmission = new \App\Models\OnlineAdmission();
+Fixed line:         $this->onlineAdmission = new \App\Models\OnlineAdmissionModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 69
+Original line:         $this->studentFields = new \App\Models\StudentFields();
+Fixed line:         $this->studentFields = new \App\Models\StudentFieldsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 70
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php on line 71
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 63
+Original line:         $this->attendance = new \App\Models\Attendance();
+Fixed line:         $this->attendance = new \App\Models\AttendanceModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 64
+Original line:         $this->qrcodeAttendance = new \App\Models\QrcodeAttendance();
+Fixed line:         $this->qrcodeAttendance = new \App\Models\QrcodeAttendanceModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 65
+Original line:         $this->frontend = new \App\Models\Frontend();
+Fixed line:         $this->frontend = new \App\Models\FrontendModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php on line 66
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php on line 44
+Original line:         $this->offlinePayments = new \App\Models\OfflinePayments();
+Fixed line:         $this->offlinePayments = new \App\Models\OfflinePaymentsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php on line 45
+Original line:         $this->fees = new \App\Models\Fees();
+Fixed line:         $this->fees = new \App\Models\FeesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Certificate.php on line 35
+Original line:         $this->certificate = new \App\Models\Certificate();
+Fixed line:         $this->certificate = new \App\Models\CertificateModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Certificate.php on line 37
+Original line:         $this->employee = new \App\Models\Employee();
+Fixed line:         $this->employee = new \App\Models\EmployeeModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php on line 38
+Original line:         $this->library = new \App\Models\Library();
+Fixed line:         $this->library = new \App\Models\LibraryModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Multiclass.php on line 29
+Original line:         $this->multiclass = new \App\Models\Multiclass();
+Fixed line:         $this->multiclass = new \App\Models\MulticlassModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Admissionpayment.php on line 43
+Original line:         $this->admissionpayment = new \App\Models\Admissionpayment();
+Fixed line:         $this->admissionpayment = new \App\Models\AdmissionpaymentModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Admissionpayment.php on line 50
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sendsmsmail.php on line 35
+Original line:         $this->sendsmsmail = new \App\Models\Sendsmsmail();
+Fixed line:         $this->sendsmsmail = new \App\Models\SendsmsmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php on line 41
+Original line:         $this->studentFields = new \App\Models\StudentFields();
+Fixed line:         $this->studentFields = new \App\Models\StudentFieldsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 64
+Original line:         $this->examProgress = new \App\Models\ExamProgress();
+Fixed line:         $this->examProgress = new \App\Models\ExamProgressModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 65
+Original line:         $this->marksheetTemplate = new \App\Models\MarksheetTemplate();
+Fixed line:         $this->marksheetTemplate = new \App\Models\MarksheetTemplateModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 66
+Original line:         $this->subject = new \App\Models\Subject();
+Fixed line:         $this->subject = new \App\Models\SubjectModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 67
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php on line 68
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 64
+Original line:         $this->employee = new \App\Models\Employee();
+Fixed line:         $this->employee = new \App\Models\EmployeeModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 65
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php on line 66
+Original line:         $this->crud = new \App\Models\Crud();
+Fixed line:         $this->crud = new \App\Models\CrudModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 62
+Original line:         $this->onlineexam = new \App\Models\Onlineexam();
+Fixed line:         $this->onlineexam = new \App\Models\OnlineexamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 63
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 64
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php on line 65
+Original line:         $this->subject = new \App\Models\Subject();
+Fixed line:         $this->subject = new \App\Models\SubjectModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 41
+Original line:         $this->fees = new \App\Models\Fees();
+Fixed line:         $this->fees = new \App\Models\FeesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php on line 42
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 70
+Original line:         $this->employee = new \App\Models\Employee();
+Fixed line:         $this->employee = new \App\Models\EmployeeModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 71
+Original line:         $this->student = new \App\Models\Student();
+Fixed line:         $this->student = new \App\Models\StudentModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 72
+Original line:         $this->fees = new \App\Models\Fees();
+Fixed line:         $this->fees = new \App\Models\FeesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 73
+Original line:         $this->parents = new \App\Models\Parents();
+Fixed line:         $this->parents = new \App\Models\ParentsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 74
+Original line:         $this->profile = new \App\Models\Profile();
+Fixed line:         $this->profile = new \App\Models\ProfileModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 75
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php on line 76
+Original line:         $this->studentFields = new \App\Models\StudentFields();
+Fixed line:         $this->studentFields = new \App\Models\StudentFieldsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php on line 34
+Original line:         $this->inventory = new \App\Models\Inventory();
+Fixed line:         $this->inventory = new \App\Models\InventoryModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Award.php on line 35
+Original line:         $this->award = new \App\Models\Award();
+Fixed line:         $this->award = new \App\Models\AwardModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Award.php on line 36
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php on line 46
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php on line 47
+Original line:         $this->parents = new \App\Models\Parents();
+Fixed line:         $this->parents = new \App\Models\ParentsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php on line 47
+Original line:         $this->attachments = new \App\Models\Attachments();
+Fixed line:         $this->attachments = new \App\Models\AttachmentsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php on line 55
+Original line:         $this->advancesalary = new \App\Models\Advancesalary();
+Fixed line:         $this->advancesalary = new \App\Models\AdvancesalaryModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php on line 56
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 43
+Original line:         $this->saas = new \App\Models\Saas();
+Fixed line:         $this->saas = new \App\Models\SaasModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 44
+Original line:         $this->saasEmail = new \App\Models\SaasEmail();
+Fixed line:         $this->saasEmail = new \App\Models\SaasEmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php on line 984
+Original line:         $this->saas = new \App\Models\Saas();
+Fixed line:         $this->saas = new \App\Models\SaasModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_domain.php on line 30
+Original line:         $this->customDomain = new \App\Models\CustomDomain();
+Fixed line:         $this->customDomain = new \App\Models\CustomDomainModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 53
+Original line:         $this->fees = new \App\Models\Fees();
+Fixed line:         $this->fees = new \App\Models\FeesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 54
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php on line 55
+Original line:         $this->sendsmsmail = new \App\Models\Sendsmsmail();
+Fixed line:         $this->sendsmsmail = new \App\Models\SendsmsmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 73
+Original line:         $this->student = new \App\Models\Student();
+Fixed line:         $this->student = new \App\Models\StudentModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 74
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 75
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 76
+Original line:         $this->studentFields = new \App\Models\StudentFields();
+Fixed line:         $this->studentFields = new \App\Models\StudentFieldsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 523
+Original line:         $this->fees = new \App\Models\Fees();
+Fixed line:         $this->fees = new \App\Models\FeesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php on line 524
+Original line:         $this->exam = new \App\Models\Exam();
+Fixed line:         $this->exam = new \App\Models\ExamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Timetable.php on line 30
+Original line:         $this->timetable = new \App\Models\Timetable();
+Fixed line:         $this->timetable = new \App\Models\TimetableModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php on line 34
+Original line:         $this->communication = new \App\Models\Communication();
+Fixed line:         $this->communication = new \App\Models\CommunicationModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php on line 30
+Original line:         $this->role = new \App\Models\Role();
+Fixed line:         $this->role = new \App\Models\RoleModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Subject.php on line 31
+Original line:         $this->subject = new \App\Models\Subject();
+Fixed line:         $this->subject = new \App\Models\SubjectModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php on line 36
+Original line:         $this->role = new \App\Models\Role();
+Fixed line:         $this->role = new \App\Models\RoleModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Reception.php on line 29
+Original line:         $this->reception = new \App\Models\Reception();
+Fixed line:         $this->reception = new \App\Models\ReceptionModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 70
+Original line:         $this->exam = new \App\Models\Exam();
+Fixed line:         $this->exam = new \App\Models\ExamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 71
+Original line:         $this->subject = new \App\Models\Subject();
+Fixed line:         $this->subject = new \App\Models\SubjectModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 72
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 73
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 74
+Original line:         $this->marksheetTemplate = new \App\Models\MarksheetTemplate();
+Fixed line:         $this->marksheetTemplate = new \App\Models\MarksheetTemplateModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php on line 75
+Original line:         $this->examProgress = new \App\Models\ExamProgress();
+Fixed line:         $this->examProgress = new \App\Models\ExamProgressModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_website.php on line 39
+Original line:         $this->saas = new \App\Models\Saas();
+Fixed line:         $this->saas = new \App\Models\SaasModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_website.php on line 40
+Original line:         $this->saasEmail = new \App\Models\SaasEmail();
+Fixed line:         $this->saasEmail = new \App\Models\SaasEmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/User_login_log.php on line 29
+Original line:         $this->userLoginLog = new \App\Models\UserLoginLog();
+Fixed line:         $this->userLoginLog = new \App\Models\UserLoginLogModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 50
+Original line:         $this->saas = new \App\Models\Saas();
+Fixed line:         $this->saas = new \App\Models\SaasModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 51
+Original line:         $this->saasEmail = new \App\Models\SaasEmail();
+Fixed line:         $this->saasEmail = new \App\Models\SaasEmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php on line 52
+Original line:         $this->saasOfflinePayments = new \App\Models\SaasOfflinePayments();
+Fixed line:         $this->saasOfflinePayments = new \App\Models\SaasOfflinePaymentsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php on line 52
+Original line:         $this->saas = new \App\Models\Saas();
+Fixed line:         $this->saas = new \App\Models\SaasModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php on line 58
+Original line:         $this->saasEmail = new \App\Models\SaasEmail();
+Fixed line:         $this->saasEmail = new \App\Models\SaasEmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 55
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 56
+Original line:         $this->alumni = new \App\Models\Alumni();
+Fixed line:         $this->alumni = new \App\Models\AlumniModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php on line 57
+Original line:         $this->dashboard = new \App\Models\Dashboard();
+Fixed line:         $this->dashboard = new \App\Models\DashboardModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_field.php on line 30
+Original line:         $this->customField = new \App\Models\CustomField();
+Fixed line:         $this->customField = new \App\Models\CustomFieldModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qr_code_settings.php on line 28
+Original line:         $this->school = new \App\Models\School();
+Fixed line:         $this->school = new \App\Models\SchoolModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Menu.php on line 11
+Original line:         $this->frontend = new \App\Models\Frontend();
+Fixed line:         $this->frontend = new \App\Models\FrontendModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php on line 23
+Original line:         $this->frontend = new \App\Models\Frontend();
+Fixed line:         $this->frontend = new \App\Models\FrontendModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php on line 24
+Original line:         $this->studentFields = new \App\Models\StudentFields();
+Fixed line:         $this->studentFields = new \App\Models\StudentFieldsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Setting.php on line 11
+Original line:         $this->frontend = new \App\Models\Frontend();
+Fixed line:         $this->frontend = new \App\Models\FrontendModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Gallery.php on line 13
+Original line:         $this->gallery = new \App\Models\Gallery();
+Fixed line:         $this->gallery = new \App\Models\GalleryModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/News.php on line 13
+Original line:         $this->news = new \App\Models\News();
+Fixed line:         $this->news = new \App\Models\NewsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Services.php on line 11
+Original line:         $this->frontend = new \App\Models\Frontend();
+Fixed line:         $this->frontend = new \App\Models\FrontendModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Testimonial.php on line 11
+Original line:         $this->testimonial = new \App\Models\Testimonial();
+Fixed line:         $this->testimonial = new \App\Models\TestimonialModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Features.php on line 11
+Original line:         $this->frontend = new \App\Models\Frontend();
+Fixed line:         $this->frontend = new \App\Models\FrontendModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Content.php on line 11
+Original line:         $this->content = new \App\Models\Content();
+Fixed line:         $this->content = new \App\Models\ContentModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Slider.php on line 11
+Original line:         $this->frontend = new \App\Models\Frontend();
+Fixed line:         $this->frontend = new \App\Models\FrontendModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Faq.php on line 11
+Original line:         $this->frontend = new \App\Models\Frontend();
+Fixed line:         $this->frontend = new \App\Models\FrontendModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php on line 39
+Original line:         $this->fees = new \App\Models\Fees();
+Fixed line:         $this->fees = new \App\Models\FeesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php on line 47
+Original line:         $this->transport = new \App\Models\Transport();
+Fixed line:         $this->transport = new \App\Models\TransportModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Dashboard.php on line 20
+Original line:         $this->dashboard = new \App\Models\Dashboard();
+Fixed line:         $this->dashboard = new \App\Models\DashboardModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 97
+Original line:         $this->studentFields = new \App\Models\StudentFields();
+Fixed line:         $this->studentFields = new \App\Models\StudentFieldsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 98
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 99
+Original line:         $this->testimonial = new \App\Models\Testimonial();
+Fixed line:         $this->testimonial = new \App\Models\TestimonialModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 100
+Original line:         $this->gallery = new \App\Models\Gallery();
+Fixed line:         $this->gallery = new \App\Models\GalleryModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 291
+Original line:                 $this->admissionpayment = new \App\Models\Admissionpayment();
+Fixed line:                 $this->admissionpayment = new \App\Models\AdmissionpaymentModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 393
+Original line:         $this->admissionpayment = new \App\Models\Admissionpayment();
+Fixed line:         $this->admissionpayment = new \App\Models\AdmissionpaymentModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 469
+Original line:             $this->cardManage = new \App\Models\CardManage();
+Fixed line:             $this->cardManage = new \App\Models\CardManageModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 470
+Original line:             $this->timetable = new \App\Models\Timetable();
+Fixed line:             $this->timetable = new \App\Models\TimetableModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 519
+Original line:         $this->exam = new \App\Models\Exam();
+Fixed line:         $this->exam = new \App\Models\ExamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php on line 572
+Original line:             $this->certificate = new \App\Models\Certificate();
+Fixed line:             $this->certificate = new \App\Models\CertificateModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 29
+Original line:         $this->accounting = new \App\Models\Accounting();
+Fixed line:         $this->accounting = new \App\Models\AccountingModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php on line 30
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php on line 38
+Original line:         $this->branch = new \App\Models\Branch();
+Fixed line:         $this->branch = new \App\Models\BranchModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 49
+Original line:         $this->subject = new \App\Models\Subject();
+Fixed line:         $this->subject = new \App\Models\SubjectModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 50
+Original line:         $this->attendance = new \App\Models\Attendance();
+Fixed line:         $this->attendance = new \App\Models\AttendanceModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 51
+Original line:         $this->attendancePeriod = new \App\Models\AttendancePeriod();
+Fixed line:         $this->attendancePeriod = new \App\Models\AttendancePeriodModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php on line 52
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/School_settings.php on line 39
+Original line:         $this->school = new \App\Models\School();
+Fixed line:         $this->school = new \App\Models\SchoolModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php on line 37
+Original line:         $this->module = new \App\Models\Module();
+Fixed line:         $this->module = new \App\Models\ModuleModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 60
+Original line:         $this->leave = new \App\Models\Leave();
+Fixed line:         $this->leave = new \App\Models\LeaveModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php on line 61
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php on line 48
+Original line:         $this->feespayment = new \App\Models\Feespayment();
+Fixed line:         $this->feespayment = new \App\Models\FeespaymentModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php on line 49
+Original line:         $this->userrole = new \App\Models\Userrole();
+Fixed line:         $this->userrole = new \App\Models\UserroleModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php on line 50
+Original line:         $this->fees = new \App\Models\Fees();
+Fixed line:         $this->fees = new \App\Models\FeesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 92
+Original line:         $this->userrole = new \App\Models\Userrole();
+Fixed line:         $this->userrole = new \App\Models\UserroleModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 93
+Original line:         $this->leave = new \App\Models\Leave();
+Fixed line:         $this->leave = new \App\Models\LeaveModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 94
+Original line:         $this->fees = new \App\Models\Fees();
+Fixed line:         $this->fees = new \App\Models\FeesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 95
+Original line:         $this->exam = new \App\Models\Exam();
+Fixed line:         $this->exam = new \App\Models\ExamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 320
+Original line:         $this->attendance = new \App\Models\Attendance();
+Fixed line:         $this->attendance = new \App\Models\AttendanceModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 601
+Original line:         $this->onlineexam = new \App\Models\Onlineexam();
+Fixed line:         $this->onlineexam = new \App\Models\OnlineexamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 611
+Original line:             $this->onlineexam = new \App\Models\Onlineexam();
+Fixed line:             $this->onlineexam = new \App\Models\OnlineexamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 623
+Original line:         $this->onlineexam = new \App\Models\Onlineexam();
+Fixed line:         $this->onlineexam = new \App\Models\OnlineexamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 645
+Original line:         $this->onlineexam = new \App\Models\Onlineexam();
+Fixed line:         $this->onlineexam = new \App\Models\OnlineexamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 677
+Original line:             $this->onlineexam = new \App\Models\Onlineexam();
+Fixed line:             $this->onlineexam = new \App\Models\OnlineexamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 686
+Original line:             $this->onlineexam = new \App\Models\Onlineexam();
+Fixed line:             $this->onlineexam = new \App\Models\OnlineexamModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 834
+Original line:         $this->attendancePeriod = new \App\Models\AttendancePeriod();
+Fixed line:         $this->attendancePeriod = new \App\Models\AttendancePeriodModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 835
+Original line:         $this->subject = new \App\Models\Subject();
+Fixed line:         $this->subject = new \App\Models\SubjectModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php on line 836
+Original line:         $this->attendance = new \App\Models\Attendance();
+Fixed line:         $this->attendance = new \App\Models\AttendanceModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_update.php on line 33
+Original line:         $this->systemUpdate = new \App\Models\SystemUpdate();
+Fixed line:         $this->systemUpdate = new \App\Models\SystemUpdateModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php on line 42
+Original line:         $this->attendance = new \App\Models\Attendance();
+Fixed line:         $this->attendance = new \App\Models\AttendanceModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php on line 43
+Original line:         $this->subject = new \App\Models\Subject();
+Fixed line:         $this->subject = new \App\Models\SubjectModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php on line 44
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Event.php on line 30
+Original line:         $this->event = new \App\Models\Event();
+Fixed line:         $this->event = new \App\Models\EventModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam_payment.php on line 44
+Original line:         $this->userrole = new \App\Models\Userrole();
+Fixed line:         $this->userrole = new \App\Models\UserroleModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam_payment.php on line 45
+Original line:         $this->fees = new \App\Models\Fees();
+Fixed line:         $this->fees = new \App\Models\FeesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Birthday.php on line 33
+Original line:         $this->birthday = new \App\Models\Birthday();
+Fixed line:         $this->birthday = new \App\Models\BirthdayModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Birthday.php on line 34
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Marksheet_template.php on line 30
+Original line:         $this->marksheetTemplate = new \App\Models\MarksheetTemplate();
+Fixed line:         $this->marksheetTemplate = new \App\Models\MarksheetTemplateModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Payroll.php on line 36
+Original line:         $this->payroll = new \App\Models\Payroll();
+Fixed line:         $this->payroll = new \App\Models\PayrollModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Payroll.php on line 37
+Original line:         $this->email = new \App\Models\Email();
+Fixed line:         $this->email = new \App\Models\EmailModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Live_class.php on line 41
+Original line:         $this->liveClass = new \App\Models\LiveClass();
+Fixed line:         $this->liveClass = new \App\Models\LiveClassModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Live_class.php on line 42
+Original line:         $this->sms = new \App\Models\Sms();
+Fixed line:         $this->sms = new \App\Models\SmsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Classes.php on line 33
+Original line:         $this->classes = new \App\Models\Classes();
+Fixed line:         $this->classes = new \App\Models\ClassesModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php on line 46
+Original line:         $this->addons = new \App\Models\Addons();
+Fixed line:         $this->addons = new \App\Models\AddonsModel();
+
+Model naming issue fixed in file: /home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php on line 43
+Original line:         $this->hostel = new \App\Models\Hostel();
+Fixed line:         $this->hostel = new \App\Models\HostelModel();
+
+Duplicate $db declarations found:
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Clickatell.php:28
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/MidtransPayment.php:10
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Bulksmsbd.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Slug.php:57
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/CustomSms.php:10
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Bulk.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Mailer.php:10
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/AppLib.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/TimetableModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/RoleModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/HostelModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AttendancePeriodModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/StudentModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/CardManageModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SmsModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AddonsModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/MarksheetTemplateModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/DashboardModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SubscriptionModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/FeesModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/UserroleModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/HomeworkModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/UserLoginLogModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/MulticlassModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AlumniModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/TransportModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/BirthdayModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/InventoryModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SaasEmailModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ApplicationModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AwardModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AuthenticationModel.php:13
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/EmailModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AccountingModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AttachmentsModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/PayrollModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SchoolModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/LibraryModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SubjectModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ParentsModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ExamModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ReceptionModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AttendanceModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/QrcodeAttendanceModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SaasModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/OnlineAdmissionModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/OfflinePaymentsModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/BranchModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/OnlineexamModel.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php:40
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:16
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:29
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:27
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:48
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php:46
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php:35
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Certificate.php:30
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php:30
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Multiclass.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Admissionpayment.php:38
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sendsmsmail.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php:24
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php:51
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:48
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:24
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:49
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php:60
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Award.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php:36
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:30
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:36
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_domain.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php:24
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php:39
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:29
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php:24
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Timetable.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php:9
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Subscription.php:39
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Subject.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php:16
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php:28
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Reception.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php:24
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php:56
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_website.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Authentication.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Authentication.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Authentication.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/User_login_log.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php:40
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php:36
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php:40
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Custom_field.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php:8
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php:10
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:23
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:33
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:28
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:30
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:32
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:56
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php:9
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php:30
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php:28
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance_period.php:41
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/School_settings.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php:29
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sections.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/MyController.php:13
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:24
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:28
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:39
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Feespayment.php:44
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Reception_config.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:24
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:28
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:30
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:32
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:52
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attendance.php:34
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Event.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam_payment.php:40
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Marksheet_template.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Payroll.php:32
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Settings.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Live_class.php:35
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Classes.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php:17
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php:19
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php:21
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Install.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php:22
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php:32
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sessions.php:21
+
+Duplicate $db initializations found:
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/MidtransPayment.php:15
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Libraries/Mailer.php:14
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/TimetableModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/RoleModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/HostelModel.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AttendancePeriodModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/StudentModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/CardManageModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SmsModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AddonsModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/MarksheetTemplateModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/DashboardModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SubscriptionModel.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/FeesModel.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/UserroleModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/HomeworkModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/UserLoginLogModel.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/MulticlassModel.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AlumniModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/TransportModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/BirthdayModel.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/InventoryModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SaasEmailModel.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ApplicationModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AwardModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AuthenticationModel.php:10
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/EmailModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AccountingModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AttachmentsModel.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/PayrollModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SchoolModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/LibraryModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SubjectModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ParentsModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ExamModel.php:11
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/ReceptionModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/AttendanceModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/QrcodeAttendanceModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/SaasModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/OnlineAdmissionModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/OfflinePaymentsModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/BranchModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/OnlineexamModel.php:12
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Models/MYModel.php:16
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php:43
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Homework.php:45
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Card_manage.php:42
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:35
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:37
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:39
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Ajax.php:41
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:58
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:60
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:62
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Online_admission.php:64
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php:53
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php:55
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Qrcode_attendance.php:57
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php:39
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Offline_payments.php:41
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php:33
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Library.php:35
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sendsmsmail.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php:34
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php:36
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/System_student_field.php:38
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php:57
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php:59
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam_progress.php:61
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:54
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:56
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:58
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Employee.php:60
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:53
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:55
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:57
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Onlineexam.php:59
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Fees.php:38
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php:65
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Profile.php:67
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Inventory.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php:40
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Parents.php:42
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:37
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:39
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:41
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Attachments.php:43
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:46
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:48
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:50
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Advance_salary.php:52
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php:39
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas.php:41
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php:47
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php:49
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Cron_api.php:51
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:34
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:36
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:38
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Translations.php:40
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php:66
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student.php:68
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Communication.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch_role.php:27
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Role.php:33
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php:63
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php:65
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Exam.php:67
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sslcommerz.php:28
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Sslcommerz.php:30
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Authentication.php:25
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Authentication.php:27
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Authentication.php:29
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php:45
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_offline_payments.php:47
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php:48
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Saas_payment.php:50
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php:48
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php:50
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Alumni.php:52
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php:16
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php:18
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/frontend/Section.php:20
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php:34
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Student_promotion.php:36
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:38
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:40
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:42
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Transport.php:44
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:87
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:89
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:91
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Home.php:93
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Accounting.php:26
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php:33
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Branch.php:35
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php:31
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php:33
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Backup.php:35
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/School_settings.php:35
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php:32
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Modules.php:34
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:47
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:49
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:51
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:53
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:55
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Leave.php:57
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:81
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:83
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:85
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:87
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Userrole.php:89
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Classes.php:30
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php:40
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php:42
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Addons.php:44
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php:36
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php:38
+/home/994924.cloudwaysapps.com/tdjkddfbdk/public_html/ci4_application/app/Controllers/Hostels.php:40
+
